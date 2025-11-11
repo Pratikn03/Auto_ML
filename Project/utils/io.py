@@ -21,12 +21,17 @@ def find_csv() -> str:
     if env and pathlib.Path(env).exists():
         return env
     # Local project defaults
-    p1 = REPO_ROOT / "src/data/modeldata.csv"
-    p2 = REPO_ROOT / "src/data/modeldata_demo.csv"
-    if p1.exists():
-        return str(p1)
-    if p2.exists():
-        return str(p2)
+    candidates = [
+        REPO_ROOT / "src/data/modeldata.csv",
+        REPO_ROOT / "src/data/modeldata_demo.csv",
+        REPO_ROOT / "Project/src/data/modeldata.csv",
+        REPO_ROOT / "Project/src/data/modeldata_demo.csv",
+        REPO_ROOT / "src/data/datasets/tabular/modeldata.csv",
+        REPO_ROOT / "src/data/datasets/tabular/modeldata_demo.csv",
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return str(candidate)
     raise FileNotFoundError(
         "Could not locate dataset. Set CSV_PATH or place modeldata.csv under src/data/."
     )
