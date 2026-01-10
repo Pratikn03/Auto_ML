@@ -14,14 +14,14 @@ from Project.experiments.runner import ExperimentConfig
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Run AutoML frameworks (AutoGluon, LightAutoML, FLAML, H2O) under shared CV.")
+    parser = argparse.ArgumentParser(description="Run AutoML frameworks (AutoGluon, LightAutoML, FLAML, H2O, auto-sklearn, TPOT) under shared CV.")
     parser.add_argument("--experiment-name", default="automl_suite", help="Base name used for persisted metrics and artifacts.")
     parser.add_argument(
         "--frameworks",
         nargs="+",
         default=["autogluon", "lightautoml", "flaml", "h2o"],
-        choices=["autogluon", "lightautoml", "flaml", "h2o"],
-        help="Subset of AutoML frameworks to evaluate.",
+        choices=["autogluon", "lightautoml", "flaml", "h2o", "autosklearn", "tpot"],
+        help="Subset of AutoML frameworks to evaluate (autosklearn/tpot require extra deps).",
     )
     parser.add_argument("--seeds", nargs="+", type=int, default=[42], help="Random seeds for outer CV repeats.")
     parser.add_argument("--splits", type=int, default=5, help="Number of stratified folds.")

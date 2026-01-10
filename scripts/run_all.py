@@ -29,6 +29,7 @@ def _env_flag(name: str, default: bool = False) -> bool:
 
 
 PIPELINE_STEPS = [
+    "scripts/run_guardrails.py",  # leakage audit before any training
     "Project/trainers/train_boosters.py",
     "Project/trainers/train_catboost.py",
     "Project/trainers/train_flaml.py",
@@ -266,6 +267,18 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
         default=_env_flag("RUN_ALL_RERUN_GLOBAL"),
         help="Force running global steps even if their artifacts already exist.",
     )
+    parser.add_argument(
+        "--frameworks",
+        nargs="+",
+        default=None,
+        help="Limit AutoML suite to these frameworks (passed to run_automl_suite.py). E.g. --frameworks flaml h2o",
+    )
+    parser.add_argument(
+        "--skip-guardrails",
+        action="store_true",
+        default=_env_flag("RUN_ALL_SKIP_GUARDRAILS"),
+        help="Skip leakage guardrails audit step.",
+    )
     return parser.parse_args(argv)
 
 
@@ -325,8 +338,15 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
         env.setdefault("PYTHONHASHSEED", "42")
         env.setdefault("FLAML_TIME_BUDGET", str(args.flaml_time_budget))
         env["CSV_PATH"] = str(dataset_path)
+        # Pass frameworks filter to automl suite if specified
+        if args.frameworks:
+            env["AUTOML_FRAMEWORKS"] = " ".join(args.frameworks)
 
         for step in PIPELINE_STEPS:
+            # Skip guardrails if flag set
+            if step == "scripts/run_guardrails.py" and args.skip_guardrails:
+                print(f"[Skip] Guardrails audit (--skip-guardrails)")
+                continue
             entry = run_step(step, env, slug, timeout_val)
             orchestrator_runtime.append(entry)
 
