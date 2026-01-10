@@ -12,7 +12,7 @@
 
 This GitHub repository hosts my **final research paper** and supplementary materials (figures, configs, result tables, and implementation code) referenced in the paper.
 
-- ✅ **Main deliverable:** `AutoML - CIS_Final.docx` (the full research paper)
+- ✅ **Main deliverable:** [`paper/AutoML - CIS_Final.docx`](paper/AutoML%20-%20CIS_Final.docx) (the full research paper)
 - ✅ **Research focus:** a **leakage-audited AutoML benchmark** that compares modern AutoML frameworks and strong boosting baselines under identical conditions
 - ✅ **Core contribution:** a practical, reproducible pipeline design that prevents "fake good" results caused by data leakage and evaluates models with both quality and deployment metrics
 
