@@ -1,7 +1,7 @@
 # AutoML: Automating the Traditional Machine Learning Methodology
 ## A Leakage-Audited AutoML Benchmark (Guardrails + Fair Comparison + Explainability + Deployment)
 
-**Author:** Pratik Niroula (sole author)  
+**Author:** Pratik Niroula  
 **Instructor:** Dr. Suboh M. Alkhushayni  
 **Type:** Research Paper + Reproducible Benchmark Code  
 **Keywords:** AutoML, Data Leakage, Cross-Validation, Boosting, Explainability, Deployment, Reproducibility
