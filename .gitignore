@@ -9,6 +9,8 @@ artifacts/
 .ipynb_checkpoints/
 data/
 src/data/modeldata.csv
+# Allow demo CSV for CI tests
+!Project/src/data/modeldata_demo.csv
 figures/*
 !figures/pareto_accuracy_runtime.png
 !figures/classifier_accuracy_precision.png
