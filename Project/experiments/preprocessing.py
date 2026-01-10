@@ -34,6 +34,7 @@ class PreprocessingConfig:
     n_bins: int = 5
     bin_encode: Literal["onehot", "onehot-dense", "ordinal"] = "onehot-dense"
     vif_threshold: Optional[float] = None
+    use_pandas_output: bool = True
 
     def as_dict(self) -> Dict[str, object]:
         return {
@@ -45,6 +46,7 @@ class PreprocessingConfig:
             "n_bins": self.n_bins,
             "bin_encode": self.bin_encode,
             "vif_threshold": self.vif_threshold,
+        "use_pandas_output": self.use_pandas_output,
         }
 
 
@@ -99,6 +101,16 @@ class VIFSelector(BaseEstimator, TransformerMixin):
         return pd.DataFrame(X)
 
 
+class DenseMatrixFlattener(BaseEstimator, TransformerMixin):
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X):
+        if hasattr(X, "toarray"):
+            return X.toarray()
+        return X
+
+
 def infer_feature_types(df: pd.DataFrame) -> Dict[str, List[str]]:
     numeric = [col for col in df.columns if pd.api.types.is_numeric_dtype(df[col])]
     categorical = [col for col in df.columns if col not in numeric]
@@ -118,14 +130,17 @@ def build_preprocessor(df: pd.DataFrame, config: Optional[PreprocessingConfig] =
     if cfg.scale_numeric:
         numeric_steps.append(("scaler", StandardScaler()))
     if cfg.binning_strategy:
-        numeric_steps.append((
-            "binning",
-            KBinsDiscretizer(
-                n_bins=cfg.n_bins,
-                encode=cfg.bin_encode,
-                strategy=cfg.binning_strategy,
-            ),
-        ))
+        binning_kwargs = {
+            "n_bins": cfg.n_bins,
+            "encode": cfg.bin_encode,
+            "strategy": cfg.binning_strategy,
+        }
+        try:
+            kbins = KBinsDiscretizer(**binning_kwargs, sparse_output=False)
+        except TypeError:
+            kbins = KBinsDiscretizer(**binning_kwargs)
+        numeric_steps.append(("binning", kbins))
+        numeric_steps.append(("dense_matrix", DenseMatrixFlattener()))
 
     try:
         categorical_encoder = OneHotEncoder(handle_unknown="ignore", sparse_output=False)
@@ -151,7 +166,8 @@ def build_preprocessor(df: pd.DataFrame, config: Optional[PreprocessingConfig] =
         remainder="drop",
         verbose_feature_names_out=False,
     )
-    transformer.set_output(transform="pandas")
+    if cfg.use_pandas_output:
+        transformer.set_output(transform="pandas")
 
     steps: List[tuple[str, Any]] = [("column_transform", transformer)]
     if cfg.vif_threshold is not None:

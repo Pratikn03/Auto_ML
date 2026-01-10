@@ -1,16 +1,54 @@
+# Virtual environments
 .venv/
 .venv311/
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+
+# ML artifacts (too large for git)
 mlruns/
 artifacts/
+*.joblib
+*.pkl
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Data (large files)
 data/
 src/data/modeldata.csv
 # Allow demo CSV for CI tests
 !Project/src/data/modeldata_demo.csv
+
+# CatBoost temp directories
+catboost_info/
+catboost_*/
+
+# Logs
+*.log
+flaml.log
+
+# Temporary files
+~$*
+*.tmp
+
+# Large image outputs (keep only key figures)
 figures/*
 !figures/pareto_accuracy_runtime.png
 !figures/classifier_accuracy_precision.png
+!figures/benchmark_results.png
+!figures/benchmark_timeseries_demo.png

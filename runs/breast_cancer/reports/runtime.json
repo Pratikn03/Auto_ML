@@ -5,1025 +5,900 @@
       "target": "target",
       "seed": 42,
       "fold": 1,
-      "fit_time_sec": 0.30753545799234416,
-      "predict_time_sec": 0.005103917006636038,
-      "wall_time_sec": 0.3127131462097168,
+      "fit_time_sec": 0.048738707992015406,
+      "predict_time_sec": 0.003409124998142943,
+      "wall_time_sec": 0.05221199989318848,
       "resource_before": {
-        "rss_mb": 307.90625,
-        "vms_mb": 402496.484375,
-        "cpu_user_sec": 1.043145984,
-        "cpu_system_sec": 0.24984712
+        "rss_mb": 571.21875,
+        "vms_mb": 426524.21875,
+        "cpu_user_sec": 2.869267968,
+        "cpu_system_sec": 2.683741696
       },
       "resource_after": {
-        "rss_mb": 313.90625,
-        "vms_mb": 403368.78125,
-        "cpu_user_sec": 1.24934528,
-        "cpu_system_sec": 0.89544768
+        "rss_mb": 577.453125,
+        "vms_mb": 426548.046875,
+        "cpu_user_sec": 3.055403776,
+        "cpu_system_sec": 2.6901632
       },
-      "rss_delta_mb": 6.0,
+      "rss_delta_mb": 6.234375,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_1_pipeline.joblib",
-      "model_size_bytes": 450543,
-      "timestamp": 1763575639.650146
+      "model_size_bytes": 449775,
+      "timestamp": 1764650202.493943
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 42,
       "fold": 2,
-      "fit_time_sec": 0.2959521250013495,
-      "predict_time_sec": 0.0026586250023683533,
-      "wall_time_sec": 0.29868078231811523,
+      "fit_time_sec": 0.25396883400389925,
+      "predict_time_sec": 0.0028594589966814965,
+      "wall_time_sec": 0.2568857669830322,
       "resource_before": {
-        "rss_mb": 377.34375,
-        "vms_mb": 403478.234375,
-        "cpu_user_sec": 1.473291008,
-        "cpu_system_sec": 0.91898432
+        "rss_mb": 629.84375,
+        "vms_mb": 426657.828125,
+        "cpu_user_sec": 3.664936704,
+        "cpu_system_sec": 3.079240448
       },
       "resource_after": {
-        "rss_mb": 384.328125,
-        "vms_mb": 403487.234375,
-        "cpu_user_sec": 1.670448384,
-        "cpu_system_sec": 1.539203072
+        "rss_mb": 633.84375,
+        "vms_mb": 426660.234375,
+        "cpu_user_sec": 4.157951232,
+        "cpu_system_sec": 4.674217472
       },
-      "rss_delta_mb": 6.984375,
+      "rss_delta_mb": 4.0,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_2_pipeline.joblib",
-      "model_size_bytes": 441535,
-      "timestamp": 1763575640.0214982
+      "model_size_bytes": 442751,
+      "timestamp": 1764650202.821008
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 42,
       "fold": 3,
-      "fit_time_sec": 0.2965959580033086,
-      "predict_time_sec": 0.002598584003862925,
-      "wall_time_sec": 0.29924631118774414,
+      "fit_time_sec": 0.06755420900299214,
+      "predict_time_sec": 0.002685999992536381,
+      "wall_time_sec": 0.070281982421875,
       "resource_before": {
-        "rss_mb": 390.421875,
-        "vms_mb": 403488.40625,
-        "cpu_user_sec": 1.741138176,
-        "cpu_system_sec": 1.543692288
+        "rss_mb": 640.171875,
+        "vms_mb": 426667.09375,
+        "cpu_user_sec": 4.489066496,
+        "cpu_system_sec": 4.708397568
       },
       "resource_after": {
-        "rss_mb": 394.5,
-        "vms_mb": 403506.40625,
-        "cpu_user_sec": 1.937196544,
-        "cpu_system_sec": 2.165958144
+        "rss_mb": 641.375,
+        "vms_mb": 426667.34375,
+        "cpu_user_sec": 4.865312256,
+        "cpu_system_sec": 4.746231296
       },
-      "rss_delta_mb": 4.078125,
+      "rss_delta_mb": 1.203125,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_3_pipeline.joblib",
-      "model_size_bytes": 440943,
-      "timestamp": 1763575640.394785
+      "model_size_bytes": 439695,
+      "timestamp": 1764650202.96171
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 42,
       "fold": 4,
-      "fit_time_sec": 0.30309445899911225,
-      "predict_time_sec": 0.0025860419991659,
-      "wall_time_sec": 0.3057432174682617,
+      "fit_time_sec": 0.075356291999924,
+      "predict_time_sec": 0.0027464580052765086,
+      "wall_time_sec": 0.07819080352783203,
       "resource_before": {
-        "rss_mb": 400.5,
-        "vms_mb": 403507.578125,
-        "cpu_user_sec": 2.006562944,
-        "cpu_system_sec": 2.170473216
+        "rss_mb": 647.6875,
+        "vms_mb": 426672.15625,
+        "cpu_user_sec": 5.235623424,
+        "cpu_system_sec": 4.789460992
       },
       "resource_after": {
-        "rss_mb": 402.25,
-        "vms_mb": 403508.578125,
-        "cpu_user_sec": 2.21026944,
-        "cpu_system_sec": 2.806052352
+        "rss_mb": 649.34375,
+        "vms_mb": 426672.15625,
+        "cpu_user_sec": 5.644071424,
+        "cpu_system_sec": 4.837583872
       },
-      "rss_delta_mb": 1.75,
+      "rss_delta_mb": 1.65625,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_4_pipeline.joblib",
-      "model_size_bytes": 447887,
-      "timestamp": 1763575640.775455
+      "model_size_bytes": 447391,
+      "timestamp": 1764650203.100806
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 42,
       "fold": 5,
-      "fit_time_sec": 0.3041961669950979,
-      "predict_time_sec": 0.0026099160022567958,
-      "wall_time_sec": 0.3068580627441406,
+      "fit_time_sec": 0.07586437500140164,
+      "predict_time_sec": 0.003144000002066605,
+      "wall_time_sec": 0.07906198501586914,
       "resource_before": {
-        "rss_mb": 408.21875,
-        "vms_mb": 403508.75,
-        "cpu_user_sec": 2.280548608,
-        "cpu_system_sec": 2.810635776
+        "rss_mb": 655.578125,
+        "vms_mb": 426677.96875,
+        "cpu_user_sec": 5.964949504,
+        "cpu_system_sec": 4.878329344
       },
       "resource_after": {
-        "rss_mb": 408.46875,
-        "vms_mb": 403508.75,
-        "cpu_user_sec": 2.485330944,
-        "cpu_system_sec": 3.448313856
+        "rss_mb": 657.171875,
+        "vms_mb": 426682.203125,
+        "cpu_user_sec": 6.38519296,
+        "cpu_system_sec": 4.927888384
       },
-      "rss_delta_mb": 0.25,
+      "rss_delta_mb": 1.59375,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_5_pipeline.joblib",
-      "model_size_bytes": 449167,
-      "timestamp": 1763575641.1553202
+      "model_size_bytes": 448895,
+      "timestamp": 1764650203.2441971
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 77,
       "fold": 1,
-      "fit_time_sec": 0.2942275410023285,
-      "predict_time_sec": 0.002860665990738198,
-      "wall_time_sec": 0.29716992378234863,
+      "fit_time_sec": 0.07244345800427254,
+      "predict_time_sec": 0.0027231659914832562,
+      "wall_time_sec": 0.07521295547485352,
       "resource_before": {
-        "rss_mb": 413.734375,
-        "vms_mb": 403508.921875,
-        "cpu_user_sec": 2.554480896,
-        "cpu_system_sec": 3.45263872
+        "rss_mb": 657.5625,
+        "vms_mb": 426682.203125,
+        "cpu_user_sec": 6.730150912,
+        "cpu_system_sec": 4.967141888
       },
       "resource_after": {
-        "rss_mb": 414.875,
-        "vms_mb": 403509.921875,
-        "cpu_user_sec": 2.75285504,
-        "cpu_system_sec": 4.061135104
+        "rss_mb": 657.5,
+        "vms_mb": 426681.953125,
+        "cpu_user_sec": 7.133467136,
+        "cpu_system_sec": 5.009474048
       },
-      "rss_delta_mb": 1.140625,
+      "rss_delta_mb": -0.0625,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_1_pipeline.joblib",
-      "model_size_bytes": 445151,
-      "timestamp": 1763575641.524631
+      "model_size_bytes": 444319,
+      "timestamp": 1764650203.3820539
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 77,
       "fold": 2,
-      "fit_time_sec": 0.2907767909928225,
-      "predict_time_sec": 0.002590374991996214,
-      "wall_time_sec": 0.2934260368347168,
+      "fit_time_sec": 0.07132279200595804,
+      "predict_time_sec": 0.0029498329968191683,
+      "wall_time_sec": 0.0743401050567627,
       "resource_before": {
-        "rss_mb": 415.21875,
-        "vms_mb": 403511.09375,
-        "cpu_user_sec": 2.821750016,
-        "cpu_system_sec": 4.06542848
+        "rss_mb": 657.828125,
+        "vms_mb": 426681.953125,
+        "cpu_user_sec": 7.447077888,
+        "cpu_system_sec": 5.047286784
       },
       "resource_after": {
-        "rss_mb": 419.84375,
-        "vms_mb": 403512.09375,
-        "cpu_user_sec": 3.0153664,
-        "cpu_system_sec": 4.677182464
+        "rss_mb": 658.875,
+        "vms_mb": 426681.953125,
+        "cpu_user_sec": 7.845512704,
+        "cpu_system_sec": 5.09129984
       },
-      "rss_delta_mb": 4.625,
+      "rss_delta_mb": 1.046875,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_2_pipeline.joblib",
-      "model_size_bytes": 441487,
-      "timestamp": 1763575641.8920882
+      "model_size_bytes": 441535,
+      "timestamp": 1764650203.521535
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 77,
       "fold": 3,
-      "fit_time_sec": 0.3099764590006089,
-      "predict_time_sec": 0.0026352919958299026,
-      "wall_time_sec": 0.3126718997955322,
+      "fit_time_sec": 0.07456837499921676,
+      "predict_time_sec": 0.00265837500046473,
+      "wall_time_sec": 0.07730889320373535,
       "resource_before": {
-        "rss_mb": 426.09375,
-        "vms_mb": 403513.265625,
-        "cpu_user_sec": 3.084797696,
-        "cpu_system_sec": 4.681604608
+        "rss_mb": 665.125,
+        "vms_mb": 426687.765625,
+        "cpu_user_sec": 8.185532928,
+        "cpu_system_sec": 5.130688
       },
       "resource_after": {
-        "rss_mb": 426.5,
-        "vms_mb": 403513.265625,
-        "cpu_user_sec": 3.293805568,
-        "cpu_system_sec": 5.333092352
+        "rss_mb": 665.328125,
+        "vms_mb": 426687.765625,
+        "cpu_user_sec": 8.598129664,
+        "cpu_system_sec": 5.174764544
       },
-      "rss_delta_mb": 0.40625,
+      "rss_delta_mb": 0.203125,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_3_pipeline.joblib",
-      "model_size_bytes": 451759,
-      "timestamp": 1763575642.2797508
+      "model_size_bytes": 450863,
+      "timestamp": 1764650203.660526
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 77,
       "fold": 4,
-      "fit_time_sec": 0.30532400000083726,
-      "predict_time_sec": 0.0026321670011384413,
-      "wall_time_sec": 0.3080101013183594,
+      "fit_time_sec": 0.07162349999998696,
+      "predict_time_sec": 0.0027640420012176037,
+      "wall_time_sec": 0.07444405555725098,
       "resource_before": {
-        "rss_mb": 426.9375,
-        "vms_mb": 403513.4375,
-        "cpu_user_sec": 3.364229376,
-        "cpu_system_sec": 5.337809408
+        "rss_mb": 671.625,
+        "vms_mb": 426693.578125,
+        "cpu_user_sec": 8.923016192,
+        "cpu_system_sec": 5.210997248
       },
       "resource_after": {
-        "rss_mb": 427.34375,
-        "vms_mb": 403513.4375,
-        "cpu_user_sec": 3.56998016,
-        "cpu_system_sec": 5.983780352
+        "rss_mb": 671.90625,
+        "vms_mb": 426693.59375,
+        "cpu_user_sec": 9.324414976,
+        "cpu_system_sec": 5.253799424
       },
-      "rss_delta_mb": 0.40625,
+      "rss_delta_mb": 0.28125,
       "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_4_pipeline.joblib",
-      "model_size_bytes": 445967,
-      "timestamp": 1763575642.66197
+      "model_size_bytes": 445279,
+      "timestamp": 1764650203.796999
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
       "target": "target",
       "seed": 77,
       "fold": 5,
-      "fit_time_sec": 0.3029492920031771,
-      "predict_time_sec": 0.002584290996310301,
-      "wall_time_sec": 0.30558085441589355,
+      "fit_time_sec": 0.07301708300656173,
+      "predict_time_sec": 0.002565417002188042,
+      "wall_time_sec": 0.0756521224975586,
       "resource_before": {
-        "rss_mb": 427.59375,
-        "vms_mb": 403513.609375,
-        "cpu_user_sec": 3.639875072,
-        "cpu_system_sec": 5.988063232
+        "rss_mb": 678.34375,
+        "vms_mb": 426699.40625,
+        "cpu_user_sec": 9.651843072,
+        "cpu_system_sec": 5.290171904
       },
       "resource_after": {
-        "rss_mb": 427.6875,
-        "vms_mb": 403513.609375,
-        "cpu_user_sec": 3.843308544,
-        "cpu_system_sec": 6.625554944
-      },
-      "rss_delta_mb": 0.09375,
-      "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_5_pipeline.joblib",
-      "model_size_bytes": 444527,
-      "timestamp": 1763575643.0447092
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 42,
-      "fold": 1,
-      "fit_time_sec": 0.8141959589993348,
-      "predict_time_sec": 0.0021050420036772266,
-      "wall_time_sec": 0.8163540363311768,
-      "resource_before": {
-        "rss_mb": 428.5,
-        "vms_mb": 403514.78125,
-        "cpu_user_sec": 3.921245184,
-        "cpu_system_sec": 6.630705152
-      },
-      "resource_after": {
-        "rss_mb": 430.515625,
-        "vms_mb": 403514.78125,
-        "cpu_user_sec": 4.387269632,
-        "cpu_system_sec": 8.356638208
-      },
-      "rss_delta_mb": 2.015625,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_1_pipeline.joblib",
-      "model_size_bytes": 889265,
-      "timestamp": 1763575643.945559
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 42,
-      "fold": 2,
-      "fit_time_sec": 0.7280782500019995,
-      "predict_time_sec": 0.0019452090054983273,
-      "wall_time_sec": 0.7300717830657959,
-      "resource_before": {
-        "rss_mb": 436.109375,
-        "vms_mb": 403514.953125,
-        "cpu_user_sec": 4.463499776,
-        "cpu_system_sec": 8.360854016
-      },
-      "resource_after": {
-        "rss_mb": 436.15625,
-        "vms_mb": 403514.953125,
-        "cpu_user_sec": 4.897625088,
-        "cpu_system_sec": 9.953825792
-      },
-      "rss_delta_mb": 0.046875,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_2_pipeline.joblib",
-      "model_size_bytes": 839569,
-      "timestamp": 1763575644.752065
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 42,
-      "fold": 3,
-      "fit_time_sec": 0.7496492500067689,
-      "predict_time_sec": 0.0020585409947670996,
-      "wall_time_sec": 0.7517561912536621,
-      "resource_before": {
-        "rss_mb": 441.140625,
-        "vms_mb": 403515.125,
-        "cpu_user_sec": 4.972273664,
-        "cpu_system_sec": 9.958555648
-      },
-      "resource_after": {
-        "rss_mb": 441.265625,
-        "vms_mb": 403515.125,
-        "cpu_user_sec": 5.417864704,
-        "cpu_system_sec": 11.597836288
-      },
-      "rss_delta_mb": 0.125,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_3_pipeline.joblib",
-      "model_size_bytes": 853361,
-      "timestamp": 1763575645.5766861
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 42,
-      "fold": 4,
-      "fit_time_sec": 0.7733798330009449,
-      "predict_time_sec": 0.0019134579924866557,
-      "wall_time_sec": 0.7753448486328125,
-      "resource_before": {
-        "rss_mb": 446.890625,
-        "vms_mb": 403515.296875,
-        "cpu_user_sec": 5.492110336,
-        "cpu_system_sec": 11.602331648
-      },
-      "resource_after": {
-        "rss_mb": 447.765625,
-        "vms_mb": 403515.296875,
-        "cpu_user_sec": 5.954391552,
-        "cpu_system_sec": 13.283274752
-      },
-      "rss_delta_mb": 0.875,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_4_pipeline.joblib",
-      "model_size_bytes": 885377,
-      "timestamp": 1763575646.427805
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 42,
-      "fold": 5,
-      "fit_time_sec": 0.7459758339973632,
-      "predict_time_sec": 0.0018672919977689162,
-      "wall_time_sec": 0.7478909492492676,
-      "resource_before": {
-        "rss_mb": 448.90625,
-        "vms_mb": 403516.46875,
-        "cpu_user_sec": 6.0291968,
-        "cpu_system_sec": 13.287779328
-      },
-      "resource_after": {
-        "rss_mb": 449.171875,
-        "vms_mb": 403516.46875,
-        "cpu_user_sec": 6.475475456,
-        "cpu_system_sec": 14.914176
-      },
-      "rss_delta_mb": 0.265625,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_5_pipeline.joblib",
-      "model_size_bytes": 864913,
-      "timestamp": 1763575647.2520802
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 77,
-      "fold": 1,
-      "fit_time_sec": 0.7681216669880087,
-      "predict_time_sec": 0.0020132079953327775,
-      "wall_time_sec": 0.7701797485351562,
-      "resource_before": {
-        "rss_mb": 449.53125,
-        "vms_mb": 403516.640625,
-        "cpu_user_sec": 6.553741824,
-        "cpu_system_sec": 14.919117824
-      },
-      "resource_after": {
-        "rss_mb": 449.703125,
-        "vms_mb": 403516.640625,
-        "cpu_user_sec": 7.003450368,
-        "cpu_system_sec": 16.54091776
-      },
-      "rss_delta_mb": 0.171875,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_1_pipeline.joblib",
-      "model_size_bytes": 870817,
-      "timestamp": 1763575648.094796
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 77,
-      "fold": 2,
-      "fit_time_sec": 0.7269888339942554,
-      "predict_time_sec": 0.001961749992915429,
-      "wall_time_sec": 0.7289988994598389,
-      "resource_before": {
-        "rss_mb": 449.90625,
-        "vms_mb": 403516.8125,
-        "cpu_user_sec": 7.076987904,
-        "cpu_system_sec": 16.54519296
-      },
-      "resource_after": {
-        "rss_mb": 450.0625,
-        "vms_mb": 403516.8125,
-        "cpu_user_sec": 7.513193984,
-        "cpu_system_sec": 18.132615168
+        "rss_mb": 678.5,
+        "vms_mb": 426699.40625,
+        "cpu_user_sec": 10.04839424,
+        "cpu_system_sec": 5.338238976
       },
       "rss_delta_mb": 0.15625,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_2_pipeline.joblib",
-      "model_size_bytes": 843473,
-      "timestamp": 1763575648.897299
+      "model_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_5_pipeline.joblib",
+      "model_size_bytes": 443439,
+      "timestamp": 1764650203.939223
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 77,
-      "fold": 3,
-      "fit_time_sec": 0.8061037079896778,
-      "predict_time_sec": 0.00208304199622944,
-      "wall_time_sec": 0.8082358837127686,
-      "resource_before": {
-        "rss_mb": 455.1875,
-        "vms_mb": 403516.984375,
-        "cpu_user_sec": 7.587775488,
-        "cpu_system_sec": 18.13701632
-      },
-      "resource_after": {
-        "rss_mb": 455.40625,
-        "vms_mb": 403516.984375,
-        "cpu_user_sec": 8.058755072,
-        "cpu_system_sec": 19.8546944
-      },
-      "rss_delta_mb": 0.21875,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_3_pipeline.joblib",
-      "model_size_bytes": 895073,
-      "timestamp": 1763575649.783082
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 77,
-      "fold": 4,
-      "fit_time_sec": 0.7561827910103602,
-      "predict_time_sec": 0.0018956669955514371,
-      "wall_time_sec": 0.758126974105835,
-      "resource_before": {
-        "rss_mb": 456.1875,
-        "vms_mb": 403518.15625,
-        "cpu_user_sec": 8.135447552,
-        "cpu_system_sec": 19.8592
-      },
-      "resource_after": {
-        "rss_mb": 456.28125,
-        "vms_mb": 403518.15625,
-        "cpu_user_sec": 8.581151232,
-        "cpu_system_sec": 21.531949056
-      },
-      "rss_delta_mb": 0.09375,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_4_pipeline.joblib",
-      "model_size_bytes": 852193,
-      "timestamp": 1763575650.6160169
-    },
-    {
-      "experiment": "boosting_suite_lightgbm_baseline",
-      "target": "target",
-      "seed": 77,
-      "fold": 5,
-      "fit_time_sec": 0.7955039170046803,
-      "predict_time_sec": 0.002060917002381757,
-      "wall_time_sec": 0.7976138591766357,
-      "resource_before": {
-        "rss_mb": 456.609375,
-        "vms_mb": 403518.328125,
-        "cpu_user_sec": 8.655207424,
-        "cpu_system_sec": 21.536415744
-      },
-      "resource_after": {
-        "rss_mb": 456.78125,
-        "vms_mb": 403518.328125,
-        "cpu_user_sec": 9.119268864,
-        "cpu_system_sec": 23.243094016
-      },
-      "rss_delta_mb": 0.171875,
-      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_5_pipeline.joblib",
-      "model_size_bytes": 877217,
-      "timestamp": 1763575651.4868119
-    },
-    {
-      "experiment": "boosting_suite_catboost_baseline",
       "target": "target",
       "seed": 42,
       "fold": 1,
-      "fit_time_sec": 0.7886500830063596,
-      "predict_time_sec": 0.002127333005773835,
-      "wall_time_sec": 0.7908580303192139,
+      "fit_time_sec": 0.37152591699850745,
+      "predict_time_sec": 0.0018900830036727712,
+      "wall_time_sec": 0.37345218658447266,
       "resource_before": {
-        "rss_mb": 457.515625,
-        "vms_mb": 403518.5,
-        "cpu_user_sec": 9.203347456,
-        "cpu_system_sec": 23.247894528
+        "rss_mb": 686.03125,
+        "vms_mb": 426704.21875,
+        "cpu_user_sec": 10.464990208,
+        "cpu_system_sec": 5.383995392
       },
       "resource_after": {
-        "rss_mb": 482.234375,
-        "vms_mb": 404579.203125,
-        "cpu_user_sec": 15.3127424,
-        "cpu_system_sec": 23.79686912
+        "rss_mb": 696.03125,
+        "vms_mb": 426756.40625,
+        "cpu_user_sec": 12.351261696,
+        "cpu_system_sec": 6.615759872
       },
-      "rss_delta_mb": 24.71875,
-      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_1_pipeline.joblib",
-      "model_size_bytes": 1132223,
-      "timestamp": 1763575652.3616488
+      "rss_delta_mb": 10.0,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_1_pipeline.joblib",
+      "model_size_bytes": 897345,
+      "timestamp": 1764650204.392051
     },
     {
-      "experiment": "boosting_suite_catboost_baseline",
+      "experiment": "boosting_suite_lightgbm_baseline",
       "target": "target",
       "seed": 42,
       "fold": 2,
-      "fit_time_sec": 0.7270824580045883,
-      "predict_time_sec": 0.0041554579947842285,
-      "wall_time_sec": 0.7313199043273926,
+      "fit_time_sec": 0.3507556250115158,
+      "predict_time_sec": 0.001980167013243772,
+      "wall_time_sec": 0.352816104888916,
       "resource_before": {
-        "rss_mb": 489.296875,
-        "vms_mb": 404580.375,
-        "cpu_user_sec": 15.37927168,
-        "cpu_system_sec": 23.801069568
+        "rss_mb": 705.921875,
+        "vms_mb": 426762.21875,
+        "cpu_user_sec": 12.660165632,
+        "cpu_system_sec": 6.786463232
       },
       "resource_after": {
-        "rss_mb": 499.578125,
-        "vms_mb": 404580.375,
-        "cpu_user_sec": 21.484791808,
-        "cpu_system_sec": 24.374233088
+        "rss_mb": 707.453125,
+        "vms_mb": 426762.21875,
+        "cpu_user_sec": 14.593457152,
+        "cpu_system_sec": 7.879458304
       },
-      "rss_delta_mb": 10.28125,
-      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_2_pipeline.joblib",
-      "model_size_bytes": 1132687,
-      "timestamp": 1763575653.168589
+      "rss_delta_mb": 1.53125,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_2_pipeline.joblib",
+      "model_size_bytes": 847649,
+      "timestamp": 1764650204.8177469
     },
     {
-      "experiment": "boosting_suite_catboost_baseline",
+      "experiment": "boosting_suite_lightgbm_baseline",
       "target": "target",
       "seed": 42,
       "fold": 3,
-      "fit_time_sec": 0.7210684580059024,
-      "predict_time_sec": 0.001517374999821186,
-      "wall_time_sec": 0.7226572036743164,
+      "fit_time_sec": 0.5380616670008749,
+      "predict_time_sec": 0.001921041010064073,
+      "wall_time_sec": 0.5400259494781494,
       "resource_before": {
-        "rss_mb": 501.34375,
-        "vms_mb": 404580.546875,
-        "cpu_user_sec": 21.551572992,
-        "cpu_system_sec": 24.37854208
+        "rss_mb": 713.796875,
+        "vms_mb": 426768.03125,
+        "cpu_user_sec": 14.9536,
+        "cpu_system_sec": 8.16057088
       },
       "resource_after": {
-        "rss_mb": 506.25,
-        "vms_mb": 404580.546875,
-        "cpu_user_sec": 27.64519424,
-        "cpu_system_sec": 24.943126528
+        "rss_mb": 713.609375,
+        "vms_mb": 426768.03125,
+        "cpu_user_sec": 17.175169024,
+        "cpu_system_sec": 10.088553472
       },
-      "rss_delta_mb": 4.90625,
-      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_3_pipeline.joblib",
-      "model_size_bytes": 1132079,
-      "timestamp": 1763575653.961962
+      "rss_delta_mb": -0.1875,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_3_pipeline.joblib",
+      "model_size_bytes": 861457,
+      "timestamp": 1764650205.428947
     },
     {
-      "experiment": "boosting_suite_catboost_baseline",
+      "experiment": "boosting_suite_lightgbm_baseline",
       "target": "target",
       "seed": 42,
       "fold": 4,
-      "fit_time_sec": 0.7256849999976112,
-      "predict_time_sec": 0.0014848749997327104,
-      "wall_time_sec": 0.7272570133209229,
+      "fit_time_sec": 0.4569388749951031,
+      "predict_time_sec": 0.0025345419999212027,
+      "wall_time_sec": 0.45951414108276367,
       "resource_before": {
-        "rss_mb": 506.4375,
-        "vms_mb": 404580.71875,
-        "cpu_user_sec": 27.711911936,
-        "cpu_system_sec": 24.947288064
+        "rss_mb": 720.03125,
+        "vms_mb": 426773.84375,
+        "cpu_user_sec": 17.517324288,
+        "cpu_system_sec": 10.299137024
       },
       "resource_after": {
-        "rss_mb": 506.671875,
-        "vms_mb": 404580.71875,
-        "cpu_user_sec": 33.806747648,
-        "cpu_system_sec": 25.5357952
+        "rss_mb": 720.53125,
+        "vms_mb": 426773.84375,
+        "cpu_user_sec": 19.642167296,
+        "cpu_system_sec": 11.738645504
       },
-      "rss_delta_mb": 0.234375,
-      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_4_pipeline.joblib",
-      "model_size_bytes": 1131071,
-      "timestamp": 1763575654.759261
+      "rss_delta_mb": 0.5,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_4_pipeline.joblib",
+      "model_size_bytes": 893537,
+      "timestamp": 1764650205.955043
     },
     {
-      "experiment": "boosting_suite_catboost_baseline",
+      "experiment": "boosting_suite_lightgbm_baseline",
       "target": "target",
       "seed": 42,
       "fold": 5,
-      "fit_time_sec": 0.7487982080056099,
-      "predict_time_sec": 0.0015552910044789314,
-      "wall_time_sec": 0.7504439353942871,
+      "fit_time_sec": 0.3552381250046892,
+      "predict_time_sec": 0.002037166996160522,
+      "wall_time_sec": 0.3573639392852783,
       "resource_before": {
-        "rss_mb": 512.09375,
-        "vms_mb": 404580.890625,
-        "cpu_user_sec": 33.8727936,
-        "cpu_system_sec": 25.539917824
+        "rss_mb": 726.984375,
+        "vms_mb": 426778.65625,
+        "cpu_user_sec": 19.94312704,
+        "cpu_system_sec": 11.917010944
       },
       "resource_after": {
-        "rss_mb": 512.1875,
-        "vms_mb": 404580.890625,
-        "cpu_user_sec": 39.781343232,
-        "cpu_system_sec": 26.367301632
+        "rss_mb": 725.1875,
+        "vms_mb": 426778.65625,
+        "cpu_user_sec": 21.85950208,
+        "cpu_system_sec": 13.008728064
       },
-      "rss_delta_mb": 0.09375,
-      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_5_pipeline.joblib",
-      "model_size_bytes": 1132495,
-      "timestamp": 1763575655.586488
+      "rss_delta_mb": -1.796875,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_5_pipeline.joblib",
+      "model_size_bytes": 872993,
+      "timestamp": 1764650206.380903
     },
     {
-      "experiment": "boosting_suite_catboost_baseline",
+      "experiment": "boosting_suite_lightgbm_baseline",
       "target": "target",
       "seed": 77,
       "fold": 1,
-      "fit_time_sec": 0.7302972080069594,
-      "predict_time_sec": 0.0014497090014629066,
-      "wall_time_sec": 0.7318367958068848,
+      "fit_time_sec": 0.3464020839892328,
+      "predict_time_sec": 0.0020257919968571514,
+      "wall_time_sec": 0.348527193069458,
       "resource_before": {
-        "rss_mb": 512.71875,
-        "vms_mb": 404581.0625,
-        "cpu_user_sec": 39.850733568,
-        "cpu_system_sec": 26.371878912
+        "rss_mb": 725.625,
+        "vms_mb": 426778.65625,
+        "cpu_user_sec": 22.2281216,
+        "cpu_system_sec": 13.218686976
       },
       "resource_after": {
-        "rss_mb": 512.765625,
-        "vms_mb": 404581.0625,
-        "cpu_user_sec": 45.932544,
-        "cpu_system_sec": 26.970533888
-      },
-      "rss_delta_mb": 0.046875,
-      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_1_pipeline.joblib",
-      "model_size_bytes": 1132063,
-      "timestamp": 1763575656.391663
-    },
-    {
-      "experiment": "boosting_suite_catboost_baseline",
-      "target": "target",
-      "seed": 77,
-      "fold": 2,
-      "fit_time_sec": 0.7244849590060767,
-      "predict_time_sec": 0.0014834169996902347,
-      "wall_time_sec": 0.7260539531707764,
-      "resource_before": {
-        "rss_mb": 513.078125,
-        "vms_mb": 404581.234375,
-        "cpu_user_sec": 45.999116288,
-        "cpu_system_sec": 26.974660608
-      },
-      "resource_after": {
-        "rss_mb": 513.09375,
-        "vms_mb": 404581.234375,
-        "cpu_user_sec": 52.010909696,
-        "cpu_system_sec": 27.595675648
-      },
-      "rss_delta_mb": 0.015625,
-      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_2_pipeline.joblib",
-      "model_size_bytes": 1129487,
-      "timestamp": 1763575657.190482
-    },
-    {
-      "experiment": "boosting_suite_catboost_baseline",
-      "target": "target",
-      "seed": 77,
-      "fold": 3,
-      "fit_time_sec": 0.7305321660096524,
-      "predict_time_sec": 0.0015191249985946342,
-      "wall_time_sec": 0.7321469783782959,
-      "resource_before": {
-        "rss_mb": 523.203125,
-        "vms_mb": 404581.40625,
-        "cpu_user_sec": 52.077129728,
-        "cpu_system_sec": 27.59974912
-      },
-      "resource_after": {
-        "rss_mb": 523.265625,
-        "vms_mb": 404581.40625,
-        "cpu_user_sec": 58.13716992,
-        "cpu_system_sec": 28.228089856
+        "rss_mb": 725.6875,
+        "vms_mb": 426778.65625,
+        "cpu_user_sec": 24.169842688,
+        "cpu_system_sec": 14.3269376
       },
       "rss_delta_mb": 0.0625,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_1_pipeline.joblib",
+      "model_size_bytes": 878961,
+      "timestamp": 1764650206.797968
+    },
+    {
+      "experiment": "boosting_suite_lightgbm_baseline",
+      "target": "target",
+      "seed": 77,
+      "fold": 2,
+      "fit_time_sec": 0.3496864999906393,
+      "predict_time_sec": 0.0017827499978011474,
+      "wall_time_sec": 0.35150694847106934,
+      "resource_before": {
+        "rss_mb": 731.78125,
+        "vms_mb": 426784.46875,
+        "cpu_user_sec": 24.52059136,
+        "cpu_system_sec": 14.541427712
+      },
+      "resource_after": {
+        "rss_mb": 732.34375,
+        "vms_mb": 426784.46875,
+        "cpu_user_sec": 26.470641664,
+        "cpu_system_sec": 15.667647488
+      },
+      "rss_delta_mb": 0.5625,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_2_pipeline.joblib",
+      "model_size_bytes": 851681,
+      "timestamp": 1764650207.300166
+    },
+    {
+      "experiment": "boosting_suite_lightgbm_baseline",
+      "target": "target",
+      "seed": 77,
+      "fold": 3,
+      "fit_time_sec": 0.37711458299600054,
+      "predict_time_sec": 0.002393625007243827,
+      "wall_time_sec": 0.3795490264892578,
+      "resource_before": {
+        "rss_mb": 733.59375,
+        "vms_mb": 426785.46875,
+        "cpu_user_sec": 27.223523328,
+        "cpu_system_sec": 16.23403008
+      },
+      "resource_after": {
+        "rss_mb": 733.578125,
+        "vms_mb": 426785.46875,
+        "cpu_user_sec": 29.152669696,
+        "cpu_system_sec": 17.541410816
+      },
+      "rss_delta_mb": -0.015625,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_3_pipeline.joblib",
+      "model_size_bytes": 903185,
+      "timestamp": 1764650207.74865
+    },
+    {
+      "experiment": "boosting_suite_lightgbm_baseline",
+      "target": "target",
+      "seed": 77,
+      "fold": 4,
+      "fit_time_sec": 0.38453966700762976,
+      "predict_time_sec": 0.0019031249976251274,
+      "wall_time_sec": 0.38648104667663574,
+      "resource_before": {
+        "rss_mb": 734.078125,
+        "vms_mb": 426785.46875,
+        "cpu_user_sec": 29.529059328,
+        "cpu_system_sec": 17.763463168
+      },
+      "resource_after": {
+        "rss_mb": 734.234375,
+        "vms_mb": 426785.46875,
+        "cpu_user_sec": 31.544590336,
+        "cpu_system_sec": 19.021443072
+      },
+      "rss_delta_mb": 0.15625,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_4_pipeline.joblib",
+      "model_size_bytes": 860273,
+      "timestamp": 1764650208.200969
+    },
+    {
+      "experiment": "boosting_suite_lightgbm_baseline",
+      "target": "target",
+      "seed": 77,
+      "fold": 5,
+      "fit_time_sec": 0.3542730000044685,
+      "predict_time_sec": 0.002124125006957911,
+      "wall_time_sec": 0.35648584365844727,
+      "resource_before": {
+        "rss_mb": 734.5625,
+        "vms_mb": 426785.46875,
+        "cpu_user_sec": 31.813472256,
+        "cpu_system_sec": 19.159754752
+      },
+      "resource_after": {
+        "rss_mb": 734.515625,
+        "vms_mb": 426785.46875,
+        "cpu_user_sec": 33.774829568,
+        "cpu_system_sec": 20.289542144
+      },
+      "rss_delta_mb": -0.046875,
+      "model_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_5_pipeline.joblib",
+      "model_size_bytes": 885361,
+      "timestamp": 1764650208.6284642
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 42,
+      "fold": 1,
+      "fit_time_sec": 0.9194873749947874,
+      "predict_time_sec": 0.003123832997516729,
+      "wall_time_sec": 0.9226901531219482,
+      "resource_before": {
+        "rss_mb": 734.9375,
+        "vms_mb": 426785.46875,
+        "cpu_user_sec": 34.12722688,
+        "cpu_system_sec": 20.534796288
+      },
+      "resource_after": {
+        "rss_mb": 759.53125,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 40.220778496,
+        "cpu_system_sec": 21.705842688
+      },
+      "rss_delta_mb": 24.59375,
+      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_1_pipeline.joblib",
+      "model_size_bytes": 1131599,
+      "timestamp": 1764650209.6296089
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 42,
+      "fold": 2,
+      "fit_time_sec": 0.8654551670042565,
+      "predict_time_sec": 0.0016064590017776936,
+      "wall_time_sec": 0.8671460151672363,
+      "resource_before": {
+        "rss_mb": 761.125,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 40.38037504,
+        "cpu_system_sec": 21.709604864
+      },
+      "resource_after": {
+        "rss_mb": 771.21875,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 46.533111808,
+        "cpu_system_sec": 22.613348352
+      },
+      "rss_delta_mb": 10.09375,
+      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_2_pipeline.joblib",
+      "model_size_bytes": 1132063,
+      "timestamp": 1764650210.561036
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 42,
+      "fold": 3,
+      "fit_time_sec": 0.8543362089985749,
+      "predict_time_sec": 0.0016182079998543486,
+      "wall_time_sec": 0.8560330867767334,
+      "resource_before": {
+        "rss_mb": 772.953125,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 46.684954624,
+        "cpu_system_sec": 22.616973312
+      },
+      "resource_after": {
+        "rss_mb": 777.921875,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 52.98653184,
+        "cpu_system_sec": 23.587231744
+      },
+      "rss_delta_mb": 4.96875,
+      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_3_pipeline.joblib",
+      "model_size_bytes": 1131455,
+      "timestamp": 1764650211.482274
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 42,
+      "fold": 4,
+      "fit_time_sec": 0.8513854580087354,
+      "predict_time_sec": 0.001564999998663552,
+      "wall_time_sec": 0.8530399799346924,
+      "resource_before": {
+        "rss_mb": 778.234375,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 53.14187264,
+        "cpu_system_sec": 23.590912
+      },
+      "resource_after": {
+        "rss_mb": 778.5,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 59.549048832,
+        "cpu_system_sec": 24.529231872
+      },
+      "rss_delta_mb": 0.265625,
+      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_4_pipeline.joblib",
+      "model_size_bytes": 1130447,
+      "timestamp": 1764650212.396884
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 42,
+      "fold": 5,
+      "fit_time_sec": 0.8331629169988446,
+      "predict_time_sec": 0.0015203749935608357,
+      "wall_time_sec": 0.8347640037536621,
+      "resource_before": {
+        "rss_mb": 779.140625,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 59.697549312,
+        "cpu_system_sec": 24.532750336
+      },
+      "resource_after": {
+        "rss_mb": 779.171875,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 66.063048704,
+        "cpu_system_sec": 25.396692992
+      },
+      "rss_delta_mb": 0.03125,
+      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_5_pipeline.joblib",
+      "model_size_bytes": 1131871,
+      "timestamp": 1764650213.294517
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 77,
+      "fold": 1,
+      "fit_time_sec": 0.8527947080001468,
+      "predict_time_sec": 0.0015629999979864806,
+      "wall_time_sec": 0.8544330596923828,
+      "resource_before": {
+        "rss_mb": 779.6875,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 66.21812736,
+        "cpu_system_sec": 25.400508416
+      },
+      "resource_after": {
+        "rss_mb": 779.390625,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 72.594956288,
+        "cpu_system_sec": 26.342178816
+      },
+      "rss_delta_mb": -0.296875,
+      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_1_pipeline.joblib",
+      "model_size_bytes": 1131439,
+      "timestamp": 1764650214.215866
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 77,
+      "fold": 2,
+      "fit_time_sec": 0.8510836250061402,
+      "predict_time_sec": 0.0015964580088621005,
+      "wall_time_sec": 0.8527631759643555,
+      "resource_before": {
+        "rss_mb": 779.84375,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 72.757665792,
+        "cpu_system_sec": 26.3458816
+      },
+      "resource_after": {
+        "rss_mb": 779.90625,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 79.111880704,
+        "cpu_system_sec": 27.285071872
+      },
+      "rss_delta_mb": 0.0625,
+      "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_2_pipeline.joblib",
+      "model_size_bytes": 1128863,
+      "timestamp": 1764650215.132861
+    },
+    {
+      "experiment": "boosting_suite_catboost_baseline",
+      "target": "target",
+      "seed": 77,
+      "fold": 3,
+      "fit_time_sec": 0.837115916001494,
+      "predict_time_sec": 0.0014980420091887936,
+      "wall_time_sec": 0.8386969566345215,
+      "resource_before": {
+        "rss_mb": 780.390625,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 79.254962176,
+        "cpu_system_sec": 27.288942592
+      },
+      "resource_after": {
+        "rss_mb": 780.09375,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 85.572272128,
+        "cpu_system_sec": 28.155561984
+      },
+      "rss_delta_mb": -0.296875,
       "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_3_pipeline.joblib",
-      "model_size_bytes": 1132367,
-      "timestamp": 1763575657.992694
+      "model_size_bytes": 1131743,
+      "timestamp": 1764650216.035033
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
       "target": "target",
       "seed": 77,
       "fold": 4,
-      "fit_time_sec": 0.7328216250025434,
-      "predict_time_sec": 0.001480249993619509,
-      "wall_time_sec": 0.7343940734863281,
+      "fit_time_sec": 0.8488962919946061,
+      "predict_time_sec": 0.0015816660015843809,
+      "wall_time_sec": 0.8505520820617676,
       "resource_before": {
-        "rss_mb": 524.453125,
-        "vms_mb": 404582.578125,
-        "cpu_user_sec": 58.203328512,
-        "cpu_system_sec": 28.232271872
+        "rss_mb": 780.59375,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 85.726076928,
+        "cpu_system_sec": 28.158916608
       },
       "resource_after": {
-        "rss_mb": 524.453125,
-        "vms_mb": 404582.578125,
-        "cpu_user_sec": 64.306036736,
-        "cpu_system_sec": 28.842876928
+        "rss_mb": 780.59375,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 92.118040576,
+        "cpu_system_sec": 29.100838912
       },
       "rss_delta_mb": 0.0,
       "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_4_pipeline.joblib",
-      "model_size_bytes": 1132847,
-      "timestamp": 1763575658.799528
+      "model_size_bytes": 1132223,
+      "timestamp": 1764650216.9474869
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
       "target": "target",
       "seed": 77,
       "fold": 5,
-      "fit_time_sec": 0.7136255829973379,
-      "predict_time_sec": 0.0014933750062482432,
-      "wall_time_sec": 0.7152121067047119,
+      "fit_time_sec": 0.8198925830074586,
+      "predict_time_sec": 0.001574499998241663,
+      "wall_time_sec": 0.8215479850769043,
       "resource_before": {
-        "rss_mb": 524.6875,
-        "vms_mb": 404582.75,
-        "cpu_user_sec": 64.374362112,
-        "cpu_system_sec": 28.8472064
+        "rss_mb": 781.125,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 92.267823104,
+        "cpu_system_sec": 29.104171008
       },
       "resource_after": {
-        "rss_mb": 524.6875,
-        "vms_mb": 404582.75,
-        "cpu_user_sec": 70.423248896,
-        "cpu_system_sec": 29.411321856
+        "rss_mb": 780.8125,
+        "vms_mb": 427846.1875,
+        "cpu_user_sec": 98.314182656,
+        "cpu_system_sec": 29.956483072
       },
-      "rss_delta_mb": 0.0,
+      "rss_delta_mb": -0.3125,
       "model_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_5_pipeline.joblib",
-      "model_size_bytes": 1130623,
-      "timestamp": 1763575659.587808
+      "model_size_bytes": 1129999,
+      "timestamp": 1764650217.835532
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "target": "target",
       "seed": 42,
       "fold": 1,
-      "fit_time_sec": 600.1757420830108,
-      "predict_time_sec": 0.003024999998160638,
-      "wall_time_sec": 600.189651966095,
+      "fit_time_sec": 24.433548542001517,
+      "predict_time_sec": 0.005185249989153817,
+      "wall_time_sec": 24.439112901687622,
       "resource_before": {
-        "rss_mb": 306.078125,
-        "vms_mb": 402772.5,
-        "cpu_user_sec": 1.044573312,
-        "cpu_system_sec": 0.192068256
+        "rss_mb": 571.5625,
+        "vms_mb": 426523.765625,
+        "cpu_user_sec": 2.778583808,
+        "cpu_system_sec": 2.624658944
       },
       "resource_after": {
-        "rss_mb": 427.234375,
-        "vms_mb": 404462.15625,
-        "cpu_user_sec": 752.095199232,
-        "cpu_system_sec": 987.935145984
+        "rss_mb": 759.90625,
+        "vms_mb": 427779.984375,
+        "cpu_user_sec": 90.424057856,
+        "cpu_system_sec": 29.800531968
       },
-      "rss_delta_mb": 121.15625,
-      "model_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_1_pipeline.joblib",
-      "model_size_bytes": 1541973,
-      "timestamp": 1763576261.3412852
+      "rss_delta_mb": 188.34375,
+      "model_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_1_pipeline.joblib",
+      "model_size_bytes": 27007,
+      "timestamp": 1764650246.120996
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "target": "target",
       "seed": 42,
       "fold": 2,
-      "fit_time_sec": 600.1193315830023,
-      "predict_time_sec": 0.0028439580055419356,
-      "wall_time_sec": 600.1246378421783,
+      "fit_time_sec": 3.4512945000024047,
+      "predict_time_sec": 0.0031342919974122196,
+      "wall_time_sec": 3.4545462131500244,
       "resource_before": {
-        "rss_mb": 435.984375,
-        "vms_mb": 404471.15625,
-        "cpu_user_sec": 752.205430784,
-        "cpu_system_sec": 987.956641792
+        "rss_mb": 759.90625,
+        "vms_mb": 427779.984375,
+        "cpu_user_sec": 90.447249408,
+        "cpu_system_sec": 29.840928768
       },
       "resource_after": {
-        "rss_mb": 422.140625,
-        "vms_mb": 404468.15625,
-        "cpu_user_sec": 1450.071556096,
-        "cpu_system_sec": 1754.400948224
+        "rss_mb": 763.296875,
+        "vms_mb": 427780.984375,
+        "cpu_user_sec": 101.636325376,
+        "cpu_system_sec": 45.779632128
       },
-      "rss_delta_mb": -13.84375,
-      "model_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_2_pipeline.joblib",
-      "model_size_bytes": 1905333,
-      "timestamp": 1763576861.64588
+      "rss_delta_mb": 3.390625,
+      "model_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_2_pipeline.joblib",
+      "model_size_bytes": 27007,
+      "timestamp": 1764650249.582291
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "target": "target",
       "seed": 42,
       "fold": 3,
-      "fit_time_sec": 600.2785454169789,
-      "predict_time_sec": 0.0029618749977089465,
-      "wall_time_sec": 600.2913358211517,
+      "fit_time_sec": 3.5479307920031715,
+      "predict_time_sec": 0.00318308400164824,
+      "wall_time_sec": 3.551208972930908,
       "resource_before": {
-        "rss_mb": 439.171875,
-        "vms_mb": 404477.15625,
-        "cpu_user_sec": 1450.225434624,
-        "cpu_system_sec": 1754.426376192
+        "rss_mb": 763.296875,
+        "vms_mb": 427780.984375,
+        "cpu_user_sec": 101.65878784,
+        "cpu_system_sec": 45.81339136
       },
       "resource_after": {
-        "rss_mb": 425.09375,
-        "vms_mb": 404474.15625,
-        "cpu_user_sec": 3252.912128,
-        "cpu_system_sec": 2437.068095488
+        "rss_mb": 767.03125,
+        "vms_mb": 427780.984375,
+        "cpu_user_sec": 113.594220544,
+        "cpu_system_sec": 62.025101312
       },
-      "rss_delta_mb": -14.078125,
-      "model_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_3_pipeline.joblib",
-      "model_size_bytes": 1291461,
-      "timestamp": 1763577462.043616
+      "rss_delta_mb": 3.734375,
+      "model_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_3_pipeline.joblib",
+      "model_size_bytes": 27007,
+      "timestamp": 1764650253.139888
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "target": "target",
       "seed": 42,
       "fold": 4,
-      "fit_time_sec": 600.116315332998,
-      "predict_time_sec": 0.0018244580132886767,
-      "wall_time_sec": 600.127925157547,
+      "fit_time_sec": 3.94584554200992,
+      "predict_time_sec": 0.002478416994563304,
+      "wall_time_sec": 3.9484288692474365,
       "resource_before": {
-        "rss_mb": 427.125,
-        "vms_mb": 404473.15625,
-        "cpu_user_sec": 3253.00125696,
-        "cpu_system_sec": 2437.082513408
+        "rss_mb": 767.03125,
+        "vms_mb": 427780.984375,
+        "cpu_user_sec": 113.60468992,
+        "cpu_system_sec": 62.061469696
       },
       "resource_after": {
-        "rss_mb": 368.875,
-        "vms_mb": 404471.15625,
-        "cpu_user_sec": 3821.559873536,
-        "cpu_system_sec": 3250.727682048
+        "rss_mb": 767.6875,
+        "vms_mb": 427781.140625,
+        "cpu_user_sec": 126.525997056,
+        "cpu_system_sec": 80.626335744
       },
-      "rss_delta_mb": -58.25,
-      "model_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_4_pipeline.joblib",
-      "model_size_bytes": 1387637,
-      "timestamp": 1763578062.3323362
+      "rss_delta_mb": 0.65625,
+      "model_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_4_pipeline.joblib",
+      "model_size_bytes": 27007,
+      "timestamp": 1764650257.094605
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "target": "target",
       "seed": 42,
       "fold": 5,
-      "fit_time_sec": 599.9945607910049,
-      "predict_time_sec": 0.0016874589782673866,
-      "wall_time_sec": 600.0060300827026,
+      "fit_time_sec": 3.7653620409982977,
+      "predict_time_sec": 0.004310707998229191,
+      "wall_time_sec": 3.7698071002960205,
       "resource_before": {
-        "rss_mb": 371.953125,
-        "vms_mb": 404472.15625,
-        "cpu_user_sec": 3821.704052736,
-        "cpu_system_sec": 3250.74157568
+        "rss_mb": 767.6875,
+        "vms_mb": 427781.140625,
+        "cpu_user_sec": 126.542823424,
+        "cpu_system_sec": 80.657498112
       },
       "resource_after": {
-        "rss_mb": 408.109375,
-        "vms_mb": 404472.15625,
-        "cpu_user_sec": 4579.370467328,
-        "cpu_system_sec": 3773.488955392
+        "rss_mb": 770.25,
+        "vms_mb": 427782.921875,
+        "cpu_user_sec": 139.323604992,
+        "cpu_system_sec": 97.961754624
       },
-      "rss_delta_mb": 36.15625,
-      "model_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_5_pipeline.joblib",
-      "model_size_bytes": 3135045,
-      "timestamp": 1763578662.644459
-    },
-    {
-      "experiment": "automl_suite_h2o",
-      "target": "target",
-      "seed": 42,
-      "fold": 1,
-      "fit_time_sec": 606.6324352499796,
-      "predict_time_sec": 0.03642999997828156,
-      "wall_time_sec": 606.6788527965546,
-      "resource_before": {
-        "rss_mb": 422.984375,
-        "vms_mb": 404484.15625,
-        "cpu_user_sec": 4579.649388544,
-        "cpu_system_sec": 3773.524082688
-      },
-      "resource_after": {
-        "rss_mb": 250.609375,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4582.695501824,
-        "cpu_system_sec": 3773.969989632
-      },
-      "rss_delta_mb": -172.375,
-      "model_path": null,
-      "model_size_bytes": null,
-      "timestamp": 1763579269.354959
-    },
-    {
-      "experiment": "automl_suite_h2o",
-      "target": "target",
-      "seed": 42,
-      "fold": 2,
-      "fit_time_sec": 587.6151805839909,
-      "predict_time_sec": 0.028469082986703143,
-      "wall_time_sec": 587.6533319950104,
-      "resource_before": {
-        "rss_mb": 253.078125,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4582.7096576,
-        "cpu_system_sec": 3773.972086784
-      },
-      "resource_after": {
-        "rss_mb": 236.859375,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4585.729032192,
-        "cpu_system_sec": 3774.407770112
-      },
-      "rss_delta_mb": -16.21875,
-      "model_path": null,
-      "model_size_bytes": null,
-      "timestamp": 1763579857.026936
-    },
-    {
-      "experiment": "automl_suite_h2o",
-      "target": "target",
-      "seed": 42,
-      "fold": 3,
-      "fit_time_sec": 588.008214957983,
-      "predict_time_sec": 0.02564254100434482,
-      "wall_time_sec": 588.0435392856598,
-      "resource_before": {
-        "rss_mb": 239.140625,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4585.744236544,
-        "cpu_system_sec": 3774.40960512
-      },
-      "resource_after": {
-        "rss_mb": 237.109375,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4588.674482176,
-        "cpu_system_sec": 3774.819074048
-      },
-      "rss_delta_mb": -2.03125,
-      "model_path": null,
-      "model_size_bytes": null,
-      "timestamp": 1763580445.0910091
-    },
-    {
-      "experiment": "automl_suite_h2o",
-      "target": "target",
-      "seed": 42,
-      "fold": 4,
-      "fit_time_sec": 588.6394867089984,
-      "predict_time_sec": 0.044338874984532595,
-      "wall_time_sec": 588.648689031601,
-      "resource_before": {
-        "rss_mb": 240.8125,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4588.69178368,
-        "cpu_system_sec": 3774.821433344
-      },
-      "resource_after": {
-        "rss_mb": 238.125,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4592.199794688,
-        "cpu_system_sec": 3775.306924032
-      },
-      "rss_delta_mb": -2.6875,
-      "model_path": null,
-      "model_size_bytes": null,
-      "timestamp": 1763581033.761529
-    },
-    {
-      "experiment": "automl_suite_h2o",
-      "target": "target",
-      "seed": 42,
-      "fold": 5,
-      "fit_time_sec": 587.9548171669885,
-      "predict_time_sec": 0.025930500007234514,
-      "wall_time_sec": 587.9991390705109,
-      "resource_before": {
-        "rss_mb": 241.125,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4592.218669056,
-        "cpu_system_sec": 3775.309021184
-      },
-      "resource_after": {
-        "rss_mb": 236.296875,
-        "vms_mb": 404482.375,
-        "cpu_user_sec": 4595.409485824,
-        "cpu_system_sec": 3775.748636672
-      },
-      "rss_delta_mb": -4.828125,
-      "model_path": null,
-      "model_size_bytes": null,
-      "timestamp": 1763581621.778618
+      "rss_delta_mb": 2.5625,
+      "model_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_5_pipeline.joblib",
+      "model_size_bytes": 27007,
+      "timestamp": 1764650260.87103
     },
     {
       "experiment": "feature_ablation_xgboost_baseline",
       "target": "target",
       "seed": 42,
       "fold": 1,
-      "fit_time_sec": 0.30079104198375717,
-      "predict_time_sec": 0.0027765000122599304,
-      "wall_time_sec": 0.30364418029785156,
+      "fit_time_sec": 0.04211120899708476,
+      "predict_time_sec": 0.0032629999914206564,
+      "wall_time_sec": 0.04545998573303223,
       "resource_before": {
-        "rss_mb": 303.875,
-        "vms_mb": 402488.484375,
-        "cpu_user_sec": 1.041153408,
-        "cpu_system_sec": 0.250922784
+        "rss_mb": 571.65625,
+        "vms_mb": 426524.1875,
+        "cpu_user_sec": 3.792318976,
+        "cpu_system_sec": 1.919364096
       },
       "resource_after": {
-        "rss_mb": 311.359375,
-        "vms_mb": 403256.78125,
-        "cpu_user_sec": 1.246089216,
-        "cpu_system_sec": 0.888163904
+        "rss_mb": 577.734375,
+        "vms_mb": 426548.015625,
+        "cpu_user_sec": 3.961595904,
+        "cpu_system_sec": 1.922381952
       },
-      "rss_delta_mb": 7.484375,
+      "rss_delta_mb": 6.078125,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_1_pipeline.joblib",
-      "model_size_bytes": 450543,
-      "timestamp": 1763581625.0748758,
+      "model_size_bytes": 449775,
+      "timestamp": 1764650265.043071,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "baseline",
       "meta_feature_variant": "Baseline",
@@ -1037,25 +912,25 @@
       "target": "target",
       "seed": 42,
       "fold": 2,
-      "fit_time_sec": 0.2989777500042692,
-      "predict_time_sec": 0.0027114170079585165,
-      "wall_time_sec": 0.30175328254699707,
+      "fit_time_sec": 0.25573741699918173,
+      "predict_time_sec": 0.002900958003010601,
+      "wall_time_sec": 0.2586953639984131,
       "resource_before": {
-        "rss_mb": 379.875,
-        "vms_mb": 403373.234375,
-        "cpu_user_sec": 1.472598912,
-        "cpu_system_sec": 0.912398144
+        "rss_mb": 629.921875,
+        "vms_mb": 426657.78125,
+        "cpu_user_sec": 4.578062848,
+        "cpu_system_sec": 2.2790784
       },
       "resource_after": {
-        "rss_mb": 382.609375,
-        "vms_mb": 403504.234375,
-        "cpu_user_sec": 1.671806208,
-        "cpu_system_sec": 1.541420672
+        "rss_mb": 635.6875,
+        "vms_mb": 426660.203125,
+        "cpu_user_sec": 5.164936704,
+        "cpu_system_sec": 3.80052736
       },
-      "rss_delta_mb": 2.734375,
+      "rss_delta_mb": 5.765625,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_2_pipeline.joblib",
-      "model_size_bytes": 441535,
-      "timestamp": 1763581625.449398,
+      "model_size_bytes": 442751,
+      "timestamp": 1764650265.370166,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "baseline",
       "meta_feature_variant": "Baseline",
@@ -1069,25 +944,25 @@
       "target": "target",
       "seed": 42,
       "fold": 3,
-      "fit_time_sec": 0.29728462497587316,
-      "predict_time_sec": 0.0025745419843588024,
-      "wall_time_sec": 0.2999088764190674,
+      "fit_time_sec": 0.07285220899211708,
+      "predict_time_sec": 0.002793958003167063,
+      "wall_time_sec": 0.07569408416748047,
       "resource_before": {
-        "rss_mb": 388.328125,
-        "vms_mb": 403505.40625,
-        "cpu_user_sec": 1.742136576,
-        "cpu_system_sec": 1.546009344
+        "rss_mb": 641.875,
+        "vms_mb": 426667.0625,
+        "cpu_user_sec": 5.492132864,
+        "cpu_system_sec": 3.833053952
       },
       "resource_after": {
-        "rss_mb": 389.875,
-        "vms_mb": 403505.40625,
-        "cpu_user_sec": 1.940610688,
-        "cpu_system_sec": 2.174660352
+        "rss_mb": 642.671875,
+        "vms_mb": 426667.3125,
+        "cpu_user_sec": 5.89824256,
+        "cpu_system_sec": 3.880563712
       },
-      "rss_delta_mb": 1.546875,
+      "rss_delta_mb": 0.796875,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_3_pipeline.joblib",
-      "model_size_bytes": 440943,
-      "timestamp": 1763581625.8211288,
+      "model_size_bytes": 439695,
+      "timestamp": 1764650265.509643,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "baseline",
       "meta_feature_variant": "Baseline",
@@ -1101,25 +976,25 @@
       "target": "target",
       "seed": 42,
       "fold": 4,
-      "fit_time_sec": 0.30849691698676907,
-      "predict_time_sec": 0.002557208004873246,
-      "wall_time_sec": 0.3111240863800049,
+      "fit_time_sec": 0.08333941698947456,
+      "predict_time_sec": 0.0029977090016473085,
+      "wall_time_sec": 0.0863950252532959,
       "resource_before": {
-        "rss_mb": 391.328125,
-        "vms_mb": 403506.578125,
-        "cpu_user_sec": 2.010329344,
-        "cpu_system_sec": 2.179017984
+        "rss_mb": 648.8125,
+        "vms_mb": 426672.125,
+        "cpu_user_sec": 6.23579648,
+        "cpu_system_sec": 3.914905088
       },
       "resource_after": {
-        "rss_mb": 393.75,
-        "vms_mb": 403507.578125,
-        "cpu_user_sec": 2.217644032,
-        "cpu_system_sec": 2.833039872
+        "rss_mb": 649.9375,
+        "vms_mb": 426672.125,
+        "cpu_user_sec": 6.689522176,
+        "cpu_system_sec": 3.958273024
       },
-      "rss_delta_mb": 2.421875,
+      "rss_delta_mb": 1.125,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_4_pipeline.joblib",
-      "model_size_bytes": 447887,
-      "timestamp": 1763581626.205277,
+      "model_size_bytes": 447391,
+      "timestamp": 1764650265.660118,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "baseline",
       "meta_feature_variant": "Baseline",
@@ -1133,25 +1008,25 @@
       "target": "target",
       "seed": 42,
       "fold": 5,
-      "fit_time_sec": 0.30980108299991116,
-      "predict_time_sec": 0.0026114590000361204,
-      "wall_time_sec": 0.3124847412109375,
+      "fit_time_sec": 0.07249733399657998,
+      "predict_time_sec": 0.003441209002630785,
+      "wall_time_sec": 0.07602214813232422,
       "resource_before": {
-        "rss_mb": 400.015625,
-        "vms_mb": 403507.75,
-        "cpu_user_sec": 2.288136704,
-        "cpu_system_sec": 2.837711104
+        "rss_mb": 656.1875,
+        "vms_mb": 426677.9375,
+        "cpu_user_sec": 7.025112064,
+        "cpu_system_sec": 3.99584
       },
       "resource_after": {
-        "rss_mb": 401.171875,
-        "vms_mb": 403508.75,
-        "cpu_user_sec": 2.496735488,
-        "cpu_system_sec": 3.488874752
+        "rss_mb": 656.65625,
+        "vms_mb": 426678.171875,
+        "cpu_user_sec": 7.43350528,
+        "cpu_system_sec": 4.03574912
       },
-      "rss_delta_mb": 1.15625,
+      "rss_delta_mb": 0.46875,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_5_pipeline.joblib",
-      "model_size_bytes": 449167,
-      "timestamp": 1763581626.58919,
+      "model_size_bytes": 448895,
+      "timestamp": 1764650265.799343,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "baseline",
       "meta_feature_variant": "Baseline",
@@ -1165,25 +1040,25 @@
       "target": "target",
       "seed": 42,
       "fold": 1,
-      "fit_time_sec": 0.4625763329968322,
-      "predict_time_sec": 0.021687125001335517,
-      "wall_time_sec": 0.484346866607666,
+      "fit_time_sec": 0.40191458399931435,
+      "predict_time_sec": 0.026079499992192723,
+      "wall_time_sec": 0.4280428886413574,
       "resource_before": {
-        "rss_mb": 406.703125,
-        "vms_mb": 403508.921875,
-        "cpu_user_sec": 2.575484416,
-        "cpu_system_sec": 3.493848064
+        "rss_mb": 658.421875,
+        "vms_mb": 426678.171875,
+        "cpu_user_sec": 7.835662336,
+        "cpu_system_sec": 4.07840512
       },
       "resource_after": {
-        "rss_mb": 460.28125,
-        "vms_mb": 403556.515625,
-        "cpu_user_sec": 3.439195392,
-        "cpu_system_sec": 3.9672896
+        "rss_mb": 710.125,
+        "vms_mb": 426715.8125,
+        "cpu_user_sec": 9.820580864,
+        "cpu_system_sec": 4.24024192
       },
-      "rss_delta_mb": 53.578125,
+      "rss_delta_mb": 51.703125,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_1_pipeline.joblib",
-      "model_size_bytes": 445232,
-      "timestamp": 1763581627.165725,
+      "model_size_bytes": 443504,
+      "timestamp": 1764650266.3166988,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "poly2",
       "meta_feature_variant": "Polynomial (deg=2)",
@@ -1197,25 +1072,25 @@
       "target": "target",
       "seed": 42,
       "fold": 2,
-      "fit_time_sec": 0.4340291660046205,
-      "predict_time_sec": 0.022825708001619205,
-      "wall_time_sec": 0.4569368362426758,
+      "fit_time_sec": 0.3754910419957014,
+      "predict_time_sec": 0.025355332996696234,
+      "wall_time_sec": 0.4009408950805664,
       "resource_before": {
-        "rss_mb": 460.53125,
-        "vms_mb": 403556.6875,
-        "cpu_user_sec": 3.516994304,
-        "cpu_system_sec": 3.972702976
+        "rss_mb": 710.34375,
+        "vms_mb": 426715.8125,
+        "cpu_user_sec": 10.158319616,
+        "cpu_system_sec": 4.273987072
       },
       "resource_after": {
-        "rss_mb": 498.421875,
-        "vms_mb": 403585.625,
-        "cpu_user_sec": 4.316176896,
-        "cpu_system_sec": 4.431000064
+        "rss_mb": 741.1875,
+        "vms_mb": 426746.859375,
+        "cpu_user_sec": 12.064464896,
+        "cpu_system_sec": 4.427236864
       },
-      "rss_delta_mb": 37.890625,
+      "rss_delta_mb": 30.84375,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_2_pipeline.joblib",
-      "model_size_bytes": 438288,
-      "timestamp": 1763581627.703462,
+      "model_size_bytes": 435056,
+      "timestamp": 1764650266.79481,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "poly2",
       "meta_feature_variant": "Polynomial (deg=2)",
@@ -1229,25 +1104,25 @@
       "target": "target",
       "seed": 42,
       "fold": 3,
-      "fit_time_sec": 0.43594108399702236,
-      "predict_time_sec": 0.02179312499356456,
-      "wall_time_sec": 0.45781803131103516,
+      "fit_time_sec": 0.3788400420016842,
+      "predict_time_sec": 0.025881416993797757,
+      "wall_time_sec": 0.4048280715942383,
       "resource_before": {
-        "rss_mb": 498.625,
-        "vms_mb": 403585.796875,
-        "cpu_user_sec": 4.393554944,
-        "cpu_system_sec": 4.436631552
+        "rss_mb": 746.734375,
+        "vms_mb": 426751.671875,
+        "cpu_user_sec": 12.438441984,
+        "cpu_system_sec": 4.46287616
       },
       "resource_after": {
-        "rss_mb": 532.40625,
-        "vms_mb": 403618.59375,
-        "cpu_user_sec": 5.187783168,
-        "cpu_system_sec": 4.926013952
+        "rss_mb": 776.65625,
+        "vms_mb": 426781.609375,
+        "cpu_user_sec": 14.332453888,
+        "cpu_system_sec": 4.608187904
       },
-      "rss_delta_mb": 33.78125,
+      "rss_delta_mb": 29.921875,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_3_pipeline.joblib",
-      "model_size_bytes": 437744,
-      "timestamp": 1763581628.243253,
+      "model_size_bytes": 433712,
+      "timestamp": 1764650267.278427,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "poly2",
       "meta_feature_variant": "Polynomial (deg=2)",
@@ -1261,25 +1136,25 @@
       "target": "target",
       "seed": 42,
       "fold": 4,
-      "fit_time_sec": 0.4501549169945065,
-      "predict_time_sec": 0.021537166991038248,
-      "wall_time_sec": 0.47177696228027344,
+      "fit_time_sec": 0.37904624998918734,
+      "predict_time_sec": 0.026141750000533648,
+      "wall_time_sec": 0.40523695945739746,
       "resource_before": {
-        "rss_mb": 532.578125,
-        "vms_mb": 403618.765625,
-        "cpu_user_sec": 5.26628608,
-        "cpu_system_sec": 4.93141248
+        "rss_mb": 782.15625,
+        "vms_mb": 426786.421875,
+        "cpu_user_sec": 14.701333504,
+        "cpu_system_sec": 4.645449216
       },
       "resource_after": {
-        "rss_mb": 568.6875,
-        "vms_mb": 403648.703125,
-        "cpu_user_sec": 6.107140608,
-        "cpu_system_sec": 5.409823744
+        "rss_mb": 812.09375,
+        "vms_mb": 426815.359375,
+        "cpu_user_sec": 16.628934656,
+        "cpu_system_sec": 4.792631296
       },
-      "rss_delta_mb": 36.109375,
+      "rss_delta_mb": 29.9375,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_4_pipeline.joblib",
-      "model_size_bytes": 443200,
-      "timestamp": 1763581628.7956212,
+      "model_size_bytes": 439296,
+      "timestamp": 1764650267.7612538,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "poly2",
       "meta_feature_variant": "Polynomial (deg=2)",
@@ -1293,25 +1168,25 @@
       "target": "target",
       "seed": 42,
       "fold": 5,
-      "fit_time_sec": 0.4675093330151867,
-      "predict_time_sec": 0.022699041990563273,
-      "wall_time_sec": 0.49029016494750977,
+      "fit_time_sec": 0.39743395800178405,
+      "predict_time_sec": 0.025644540990469977,
+      "wall_time_sec": 0.4231741428375244,
       "resource_before": {
-        "rss_mb": 568.9375,
-        "vms_mb": 403649.875,
-        "cpu_user_sec": 6.183929856,
-        "cpu_system_sec": 5.41551104
+        "rss_mb": 817.40625,
+        "vms_mb": 426820.171875,
+        "cpu_user_sec": 16.998197248,
+        "cpu_system_sec": 4.830447616
       },
       "resource_after": {
-        "rss_mb": 605.171875,
-        "vms_mb": 403684.6875,
-        "cpu_user_sec": 7.054360576,
-        "cpu_system_sec": 5.905597952
+        "rss_mb": 850.5,
+        "vms_mb": 426852.984375,
+        "cpu_user_sec": 18.979282944,
+        "cpu_system_sec": 4.989484032
       },
-      "rss_delta_mb": 36.234375,
+      "rss_delta_mb": 33.09375,
       "model_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_5_pipeline.joblib",
-      "model_size_bytes": 445840,
-      "timestamp": 1763581629.3650591,
+      "model_size_bytes": 441808,
+      "timestamp": 1764650268.26253,
       "meta_ablation_suite": true,
       "meta_preprocessing_variant": "poly2",
       "meta_feature_variant": "Polynomial (deg=2)",
@@ -1319,123 +1194,1239 @@
       "meta_feature_variant_key": "poly2",
       "meta_estimator_name": "xgboost",
       "meta_experiment_family": "feature_ablation"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.2156159169971943,
+      "predict_time_sec": 0.003666457996587269,
+      "wall_time_sec": 0.21938204765319824,
+      "resource_before": {
+        "rss_mb": 362.703125,
+        "vms_mb": 402435.53125,
+        "cpu_user_sec": 1.51036224,
+        "cpu_system_sec": 0.461695072
+      },
+      "resource_after": {
+        "rss_mb": 367.59375,
+        "vms_mb": 402827.5625,
+        "cpu_user_sec": 1.638339584,
+        "cpu_system_sec": 0.585361536
+      },
+      "rss_delta_mb": 4.890625,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 630463,
+      "timestamp": 1764651362.787484,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.2013301249971846,
+      "predict_time_sec": 0.003038416994968429,
+      "wall_time_sec": 0.20445489883422852,
+      "resource_before": {
+        "rss_mb": 415.421875,
+        "vms_mb": 402918.171875,
+        "cpu_user_sec": 1.86246144,
+        "cpu_system_sec": 0.656046912
+      },
+      "resource_after": {
+        "rss_mb": 417.6875,
+        "vms_mb": 402918.171875,
+        "cpu_user_sec": 1.9814208,
+        "cpu_system_sec": 0.777737728
+      },
+      "rss_delta_mb": 2.265625,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 618959,
+      "timestamp": 1764651363.066863,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.21035079199646134,
+      "predict_time_sec": 0.0031110419949982315,
+      "wall_time_sec": 0.21355104446411133,
+      "resource_before": {
+        "rss_mb": 430.46875,
+        "vms_mb": 402920.21875,
+        "cpu_user_sec": 2.04926976,
+        "cpu_system_sec": 0.783066624
+      },
+      "resource_after": {
+        "rss_mb": 431.25,
+        "vms_mb": 402920.21875,
+        "cpu_user_sec": 2.174456576,
+        "cpu_system_sec": 0.908333184
+      },
+      "rss_delta_mb": 0.78125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 646751,
+      "timestamp": 1764651363.350762,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.42894758300099056,
+      "predict_time_sec": 0.006706041007419117,
+      "wall_time_sec": 0.4356968402862549,
+      "resource_before": {
+        "rss_mb": 437.4375,
+        "vms_mb": 402921.265625,
+        "cpu_user_sec": 2.244773888,
+        "cpu_system_sec": 0.91394176
+      },
+      "resource_after": {
+        "rss_mb": 460.9375,
+        "vms_mb": 402945.203125,
+        "cpu_user_sec": 2.719060736,
+        "cpu_system_sec": 1.020254528
+      },
+      "rss_delta_mb": 23.5,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 575535,
+      "timestamp": 1764651363.87731,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.426261082990095,
+      "predict_time_sec": 0.007654291999642737,
+      "wall_time_sec": 0.43399691581726074,
+      "resource_before": {
+        "rss_mb": 471.671875,
+        "vms_mb": 402947.25,
+        "cpu_user_sec": 2.794935552,
+        "cpu_system_sec": 1.025962496
+      },
+      "resource_after": {
+        "rss_mb": 481.75,
+        "vms_mb": 402947.25,
+        "cpu_user_sec": 3.258347776,
+        "cpu_system_sec": 1.136894848
+      },
+      "rss_delta_mb": 10.078125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 562319,
+      "timestamp": 1764651364.392469,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.4208812919969205,
+      "predict_time_sec": 0.007116875000065193,
+      "wall_time_sec": 0.4281022548675537,
+      "resource_before": {
+        "rss_mb": 481.84375,
+        "vms_mb": 402947.296875,
+        "cpu_user_sec": 3.334216448,
+        "cpu_system_sec": 1.142692736
+      },
+      "resource_after": {
+        "rss_mb": 482.546875,
+        "vms_mb": 402947.296875,
+        "cpu_user_sec": 3.830936832,
+        "cpu_system_sec": 1.249783808
+      },
+      "rss_delta_mb": 0.703125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 584863,
+      "timestamp": 1764651364.900689,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.6666646660014521,
+      "predict_time_sec": 0.0026716249994933605,
+      "wall_time_sec": 0.6694579124450684,
+      "resource_before": {
+        "rss_mb": 366.1875,
+        "vms_mb": 402697.90625,
+        "cpu_user_sec": 1.481032832,
+        "cpu_system_sec": 0.33926832
+      },
+      "resource_after": {
+        "rss_mb": 373.46875,
+        "vms_mb": 402898.1875,
+        "cpu_user_sec": 1.839272064,
+        "cpu_system_sec": 1.771407104
+      },
+      "rss_delta_mb": 7.28125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 630463,
+      "timestamp": 1764651368.064233,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.7406337910069851,
+      "predict_time_sec": 0.002604124994832091,
+      "wall_time_sec": 0.743340253829956,
+      "resource_before": {
+        "rss_mb": 427.6875,
+        "vms_mb": 403012.171875,
+        "cpu_user_sec": 2.0313504,
+        "cpu_system_sec": 1.797610496
+      },
+      "resource_after": {
+        "rss_mb": 347.578125,
+        "vms_mb": 403014.171875,
+        "cpu_user_sec": 2.37364608,
+        "cpu_system_sec": 3.15140096
+      },
+      "rss_delta_mb": -80.109375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 618959,
+      "timestamp": 1764651368.8788512,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.9392757919995347,
+      "predict_time_sec": 0.002825333009241149,
+      "wall_time_sec": 0.9422128200531006,
+      "resource_before": {
+        "rss_mb": 368.78125,
+        "vms_mb": 403015.890625,
+        "cpu_user_sec": 2.434536448,
+        "cpu_system_sec": 3.157604096
+      },
+      "resource_after": {
+        "rss_mb": 372.53125,
+        "vms_mb": 403015.890625,
+        "cpu_user_sec": 2.760411392,
+        "cpu_system_sec": 4.250374144
+      },
+      "rss_delta_mb": 3.75,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 646751,
+      "timestamp": 1764651369.88539,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.7849337920051767,
+      "predict_time_sec": 0.0061949169903527945,
+      "wall_time_sec": 0.7912209033966064,
+      "resource_before": {
+        "rss_mb": 381.3125,
+        "vms_mb": 403017.0625,
+        "cpu_user_sec": 2.826771712,
+        "cpu_system_sec": 4.25536
+      },
+      "resource_after": {
+        "rss_mb": 403.21875,
+        "vms_mb": 403031.484375,
+        "cpu_user_sec": 3.574979072,
+        "cpu_system_sec": 5.513102848
+      },
+      "rss_delta_mb": 21.90625,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 575535,
+      "timestamp": 1764651370.756167,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.7480961669934914,
+      "predict_time_sec": 0.006099499994888902,
+      "wall_time_sec": 0.7542901039123535,
+      "resource_before": {
+        "rss_mb": 413.765625,
+        "vms_mb": 403032.65625,
+        "cpu_user_sec": 3.647625984,
+        "cpu_system_sec": 5.518143488
+      },
+      "resource_after": {
+        "rss_mb": 414.078125,
+        "vms_mb": 403032.65625,
+        "cpu_user_sec": 4.370280448,
+        "cpu_system_sec": 6.75524352
+      },
+      "rss_delta_mb": 0.3125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 562319,
+      "timestamp": 1764651371.5914629,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.7789451249991544,
+      "predict_time_sec": 0.006339166997349821,
+      "wall_time_sec": 0.7853870391845703,
+      "resource_before": {
+        "rss_mb": 414.609375,
+        "vms_mb": 403032.828125,
+        "cpu_user_sec": 4.447794176,
+        "cpu_system_sec": 6.760804864
+      },
+      "resource_after": {
+        "rss_mb": 414.59375,
+        "vms_mb": 403032.828125,
+        "cpu_user_sec": 5.217788416,
+        "cpu_system_sec": 8.033992704
+      },
+      "rss_delta_mb": -0.015625,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 584863,
+      "timestamp": 1764651372.456886,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.20970041600230616,
+      "predict_time_sec": 0.004222791991196573,
+      "wall_time_sec": 0.21404695510864258,
+      "resource_before": {
+        "rss_mb": 365.9375,
+        "vms_mb": 402546.53125,
+        "cpu_user_sec": 1.469736704,
+        "cpu_system_sec": 0.351551168
+      },
+      "resource_after": {
+        "rss_mb": 375.3125,
+        "vms_mb": 402819.5625,
+        "cpu_user_sec": 1.600580608,
+        "cpu_system_sec": 0.469546048
+      },
+      "rss_delta_mb": 9.375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 630463,
+      "timestamp": 1764651388.769235,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.1923103339941008,
+      "predict_time_sec": 0.0030909579945728183,
+      "wall_time_sec": 0.19548583030700684,
+      "resource_before": {
+        "rss_mb": 417.125,
+        "vms_mb": 402919.171875,
+        "cpu_user_sec": 1.8275872,
+        "cpu_system_sec": 0.52432464
+      },
+      "resource_after": {
+        "rss_mb": 421.921875,
+        "vms_mb": 402919.171875,
+        "cpu_user_sec": 1.945242752,
+        "cpu_system_sec": 0.636694912
+      },
+      "rss_delta_mb": 4.796875,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 618959,
+      "timestamp": 1764651389.038398,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.20202749999589287,
+      "predict_time_sec": 0.003315499998279847,
+      "wall_time_sec": 0.20548486709594727,
+      "resource_before": {
+        "rss_mb": 432.46875,
+        "vms_mb": 402922.21875,
+        "cpu_user_sec": 2.011640448,
+        "cpu_system_sec": 0.6418032
+      },
+      "resource_after": {
+        "rss_mb": 433.171875,
+        "vms_mb": 402923.21875,
+        "cpu_user_sec": 2.138482816,
+        "cpu_system_sec": 0.758428224
+      },
+      "rss_delta_mb": 0.703125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 646751,
+      "timestamp": 1764651389.3091772,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.4141885829885723,
+      "predict_time_sec": 0.006715834009810351,
+      "wall_time_sec": 0.4209909439086914,
+      "resource_before": {
+        "rss_mb": 446.375,
+        "vms_mb": 402924.265625,
+        "cpu_user_sec": 2.202889984,
+        "cpu_system_sec": 0.763563648
+      },
+      "resource_after": {
+        "rss_mb": 467.03125,
+        "vms_mb": 402938.703125,
+        "cpu_user_sec": 2.678172672,
+        "cpu_system_sec": 0.874867392
+      },
+      "rss_delta_mb": 20.65625,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 575535,
+      "timestamp": 1764651389.812188,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.38705449999542907,
+      "predict_time_sec": 0.007009207998635247,
+      "wall_time_sec": 0.39417195320129395,
+      "resource_before": {
+        "rss_mb": 467.78125,
+        "vms_mb": 402939.75,
+        "cpu_user_sec": 2.751753984,
+        "cpu_system_sec": 0.880084928
+      },
+      "resource_after": {
+        "rss_mb": 469.875,
+        "vms_mb": 402939.75,
+        "cpu_user_sec": 3.201565184,
+        "cpu_system_sec": 0.982311488
+      },
+      "rss_delta_mb": 2.09375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 562319,
+      "timestamp": 1764651390.291466,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.42225970899744425,
+      "predict_time_sec": 0.007176582992542535,
+      "wall_time_sec": 0.42953991889953613,
+      "resource_before": {
+        "rss_mb": 470.171875,
+        "vms_mb": 402940.796875,
+        "cpu_user_sec": 3.281373696,
+        "cpu_system_sec": 0.988447488
+      },
+      "resource_after": {
+        "rss_mb": 470.484375,
+        "vms_mb": 402941.796875,
+        "cpu_user_sec": 3.777026304,
+        "cpu_system_sec": 1.097151872
+      },
+      "rss_delta_mb": 0.3125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 584863,
+      "timestamp": 1764651390.800168,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.6585018750047311,
+      "predict_time_sec": 0.0035319590097060427,
+      "wall_time_sec": 0.6621561050415039,
+      "resource_before": {
+        "rss_mb": 364.21875,
+        "vms_mb": 402307.90625,
+        "cpu_user_sec": 1.477807744,
+        "cpu_system_sec": 0.33406224
+      },
+      "resource_after": {
+        "rss_mb": 373.25,
+        "vms_mb": 402892.1875,
+        "cpu_user_sec": 1.830067328,
+        "cpu_system_sec": 1.680148352
+      },
+      "rss_delta_mb": 9.03125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 630463,
+      "timestamp": 1764651393.906585,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.7375788749923231,
+      "predict_time_sec": 0.002912458003265783,
+      "wall_time_sec": 0.7406089305877686,
+      "resource_before": {
+        "rss_mb": 434.203125,
+        "vms_mb": 403003.171875,
+        "cpu_user_sec": 2.017458688,
+        "cpu_system_sec": 1.702463616
+      },
+      "resource_after": {
+        "rss_mb": 435.40625,
+        "vms_mb": 403004.171875,
+        "cpu_user_sec": 2.356104448,
+        "cpu_system_sec": 3.078065408
+      },
+      "rss_delta_mb": 1.203125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 618959,
+      "timestamp": 1764651394.709248,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.7448813750088448,
+      "predict_time_sec": 0.0026647920021787286,
+      "wall_time_sec": 0.7476470470428467,
+      "resource_before": {
+        "rss_mb": 446.9375,
+        "vms_mb": 403007.890625,
+        "cpu_user_sec": 2.4155712,
+        "cpu_system_sec": 3.082879488
+      },
+      "resource_after": {
+        "rss_mb": 447.421875,
+        "vms_mb": 403007.890625,
+        "cpu_user_sec": 2.770431488,
+        "cpu_system_sec": 4.531057664
+      },
+      "rss_delta_mb": 0.484375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 646751,
+      "timestamp": 1764651395.519636,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.775309541990282,
+      "predict_time_sec": 0.00609320800867863,
+      "wall_time_sec": 0.7814898490905762,
+      "resource_before": {
+        "rss_mb": 454.0,
+        "vms_mb": 403010.0625,
+        "cpu_user_sec": 2.835471872,
+        "cpu_system_sec": 4.536127488
+      },
+      "resource_after": {
+        "rss_mb": 475.828125,
+        "vms_mb": 403024.484375,
+        "cpu_user_sec": 3.580757504,
+        "cpu_system_sec": 5.720710656
+      },
+      "rss_delta_mb": 21.828125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 575535,
+      "timestamp": 1764651396.384319,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.7383018749969779,
+      "predict_time_sec": 0.00618758299970068,
+      "wall_time_sec": 0.7445797920227051,
+      "resource_before": {
+        "rss_mb": 482.09375,
+        "vms_mb": 403033.65625,
+        "cpu_user_sec": 3.655516672,
+        "cpu_system_sec": 5.725362688
+      },
+      "resource_after": {
+        "rss_mb": 488.890625,
+        "vms_mb": 403034.65625,
+        "cpu_user_sec": 4.390466048,
+        "cpu_system_sec": 6.96761856
+      },
+      "rss_delta_mb": 6.796875,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 562319,
+      "timestamp": 1764651397.213593,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.8190897909953492,
+      "predict_time_sec": 0.005912791006267071,
+      "wall_time_sec": 0.825092077255249,
+      "resource_before": {
+        "rss_mb": 489.265625,
+        "vms_mb": 403034.828125,
+        "cpu_user_sec": 4.47158016,
+        "cpu_system_sec": 6.973330432
+      },
+      "resource_after": {
+        "rss_mb": 486.078125,
+        "vms_mb": 403034.828125,
+        "cpu_user_sec": 5.243099648,
+        "cpu_system_sec": 8.200555008
+      },
+      "rss_delta_mb": -3.1875,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 584863,
+      "timestamp": 1764651398.113013,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.2212511250108946,
+      "predict_time_sec": 0.003591083994251676,
+      "wall_time_sec": 0.22493219375610352,
+      "resource_before": {
+        "rss_mb": 368.171875,
+        "vms_mb": 402808.53125,
+        "cpu_user_sec": 1.718422272,
+        "cpu_system_sec": 0.523443968
+      },
+      "resource_after": {
+        "rss_mb": 364.453125,
+        "vms_mb": 402817.5625,
+        "cpu_user_sec": 1.848145664,
+        "cpu_system_sec": 0.652444608
+      },
+      "rss_delta_mb": -3.71875,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 630463,
+      "timestamp": 1764651519.529335,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.2172667920094682,
+      "predict_time_sec": 0.0032025410037022084,
+      "wall_time_sec": 0.22055506706237793,
+      "resource_before": {
+        "rss_mb": 406.28125,
+        "vms_mb": 402909.171875,
+        "cpu_user_sec": 2.092198528,
+        "cpu_system_sec": 0.739611712
+      },
+      "resource_after": {
+        "rss_mb": 409.640625,
+        "vms_mb": 402910.171875,
+        "cpu_user_sec": 2.217839872,
+        "cpu_system_sec": 0.867369664
+      },
+      "rss_delta_mb": 3.359375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 618959,
+      "timestamp": 1764651519.824526,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.2890069579880219,
+      "predict_time_sec": 0.0058906659978674725,
+      "wall_time_sec": 0.2949860095977783,
+      "resource_before": {
+        "rss_mb": 423.6875,
+        "vms_mb": 402911.21875,
+        "cpu_user_sec": 2.282209024,
+        "cpu_system_sec": 0.873657792
+      },
+      "resource_after": {
+        "rss_mb": 362.59375,
+        "vms_mb": 402911.21875,
+        "cpu_user_sec": 2.441874944,
+        "cpu_system_sec": 1.027761088
+      },
+      "rss_delta_mb": -61.09375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 646751,
+      "timestamp": 1764651520.203698,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.43862333400466014,
+      "predict_time_sec": 0.006594958002096973,
+      "wall_time_sec": 0.44533300399780273,
+      "resource_before": {
+        "rss_mb": 374.859375,
+        "vms_mb": 402914.265625,
+        "cpu_user_sec": 2.52002176,
+        "cpu_system_sec": 1.038323456
+      },
+      "resource_after": {
+        "rss_mb": 397.953125,
+        "vms_mb": 402928.703125,
+        "cpu_user_sec": 3.01068416,
+        "cpu_system_sec": 1.15938112
+      },
+      "rss_delta_mb": 23.09375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 575535,
+      "timestamp": 1764651520.7358952,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.4414560829900438,
+      "predict_time_sec": 0.007121917005861178,
+      "wall_time_sec": 0.44866299629211426,
+      "resource_before": {
+        "rss_mb": 409.515625,
+        "vms_mb": 402929.75,
+        "cpu_user_sec": 3.08553344,
+        "cpu_system_sec": 1.165030528
+      },
+      "resource_after": {
+        "rss_mb": 412.90625,
+        "vms_mb": 402937.75,
+        "cpu_user_sec": 3.573554944,
+        "cpu_system_sec": 1.281887872
+      },
+      "rss_delta_mb": 3.390625,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 562319,
+      "timestamp": 1764651521.2637188,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.44970987499982584,
+      "predict_time_sec": 0.00774016699870117,
+      "wall_time_sec": 0.4575347900390625,
+      "resource_before": {
+        "rss_mb": 419.40625,
+        "vms_mb": 402937.796875,
+        "cpu_user_sec": 3.64814464,
+        "cpu_system_sec": 1.287490176
+      },
+      "resource_after": {
+        "rss_mb": 425.828125,
+        "vms_mb": 402937.796875,
+        "cpu_user_sec": 4.161586944,
+        "cpu_system_sec": 1.407045632
+      },
+      "rss_delta_mb": 6.421875,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 584863,
+      "timestamp": 1764651521.802442,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.667601042005117,
+      "predict_time_sec": 0.004382667000754736,
+      "wall_time_sec": 0.6720969676971436,
+      "resource_before": {
+        "rss_mb": 363.40625,
+        "vms_mb": 402563.90625,
+        "cpu_user_sec": 1.485961984,
+        "cpu_system_sec": 0.332021888
+      },
+      "resource_after": {
+        "rss_mb": 372.53125,
+        "vms_mb": 402892.1875,
+        "cpu_user_sec": 1.84599296,
+        "cpu_system_sec": 1.61701888
+      },
+      "rss_delta_mb": 9.125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 630463,
+      "timestamp": 1764651524.962226,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.7213327909994405,
+      "predict_time_sec": 0.0027150840032845736,
+      "wall_time_sec": 0.7241418361663818,
+      "resource_before": {
+        "rss_mb": 432.734375,
+        "vms_mb": 403013.171875,
+        "cpu_user_sec": 2.036417152,
+        "cpu_system_sec": 1.640418432
+      },
+      "resource_after": {
+        "rss_mb": 436.125,
+        "vms_mb": 403013.171875,
+        "cpu_user_sec": 2.379918336,
+        "cpu_system_sec": 3.017195264
+      },
+      "rss_delta_mb": 3.390625,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 618959,
+      "timestamp": 1764651525.7512388,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_baseline",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.7438379579980392,
+      "predict_time_sec": 0.002467332989908755,
+      "wall_time_sec": 0.7463870048522949,
+      "resource_before": {
+        "rss_mb": 442.671875,
+        "vms_mb": 403015.890625,
+        "cpu_user_sec": 2.440632064,
+        "cpu_system_sec": 3.021385984
+      },
+      "resource_after": {
+        "rss_mb": 443.40625,
+        "vms_mb": 403015.890625,
+        "cpu_user_sec": 2.796607488,
+        "cpu_system_sec": 4.434775552
+      },
+      "rss_delta_mb": 0.734375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_baseline/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 646751,
+      "timestamp": 1764651526.55937,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "baseline",
+      "meta_feature_variant": "Baseline",
+      "meta_feature_description": "Impute + scaling; no extra transforms.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 1,
+      "fit_time_sec": 0.7630044999968959,
+      "predict_time_sec": 0.006137625008705072,
+      "wall_time_sec": 0.7692391872406006,
+      "resource_before": {
+        "rss_mb": 454.84375,
+        "vms_mb": 403017.0625,
+        "cpu_user_sec": 2.860637184,
+        "cpu_system_sec": 4.439471616
+      },
+      "resource_after": {
+        "rss_mb": 475.625,
+        "vms_mb": 403031.484375,
+        "cpu_user_sec": 3.607165696,
+        "cpu_system_sec": 5.655939584
+      },
+      "rss_delta_mb": 20.78125,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_1_pipeline.joblib",
+      "model_size_bytes": 575535,
+      "timestamp": 1764651527.409556,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 2,
+      "fit_time_sec": 0.7393247500003781,
+      "predict_time_sec": 0.0061959580052644014,
+      "wall_time_sec": 0.7456099987030029,
+      "resource_before": {
+        "rss_mb": 486.21875,
+        "vms_mb": 403040.65625,
+        "cpu_user_sec": 3.679678976,
+        "cpu_system_sec": 5.661022208
+      },
+      "resource_after": {
+        "rss_mb": 491.828125,
+        "vms_mb": 403040.65625,
+        "cpu_user_sec": 4.394399232,
+        "cpu_system_sec": 6.85222144
+      },
+      "rss_delta_mb": 5.609375,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_2_pipeline.joblib",
+      "model_size_bytes": 562319,
+      "timestamp": 1764651528.2322078,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
+    },
+    {
+      "experiment": "sensitivity_xgboost_poly2",
+      "target": "target",
+      "seed": 0,
+      "fold": 3,
+      "fit_time_sec": 0.7592250840098131,
+      "predict_time_sec": 0.006035750004230067,
+      "wall_time_sec": 0.7653529644012451,
+      "resource_before": {
+        "rss_mb": 496.921875,
+        "vms_mb": 403040.828125,
+        "cpu_user_sec": 4.46826752,
+        "cpu_system_sec": 6.857696256
+      },
+      "resource_after": {
+        "rss_mb": 493.703125,
+        "vms_mb": 403040.828125,
+        "cpu_user_sec": 5.207968256,
+        "cpu_system_sec": 7.998939648
+      },
+      "rss_delta_mb": -3.21875,
+      "model_path": "artifacts/experiments/sensitivity_xgboost_poly2/seed_0/fold_3_pipeline.joblib",
+      "model_size_bytes": 584863,
+      "timestamp": 1764651529.077795,
+      "meta_sensitivity_run": true,
+      "meta_feature_variant_key": "poly2",
+      "meta_feature_variant": "Polynomial (deg=2)",
+      "meta_feature_description": "Numeric polynomial features for interaction sensitivity.",
+      "meta_estimator_name": "xgboost",
+      "meta_experiment_family": "sensitivity"
     }
   ],
   "explainability": [
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "seed": 42,
       "fold": -1,
-      "pipeline_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_1_pipeline.joblib",
+      "pipeline_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1541973,
-      "shap_time_sec": 8.238913249981124,
+      "model_size_bytes": 27007,
+      "shap_time_sec": null,
       "lime_time_sec": null,
       "resource_before": {
-        "rss_mb": 383.75,
-        "vms_mb": 402703.9375,
-        "cpu_user_sec": 1.336813184,
-        "cpu_system_sec": 0.25139504
+        "rss_mb": 622.578125,
+        "vms_mb": 426658.546875,
+        "cpu_user_sec": 3.01988096,
+        "cpu_system_sec": 2.628381184
       },
       "resource_after": {
-        "rss_mb": 526.71875,
-        "vms_mb": 403152.890625,
-        "cpu_user_sec": 22.33984,
-        "cpu_system_sec": 1.573454336
+        "rss_mb": 627.03125,
+        "vms_mb": 426663.46875,
+        "cpu_user_sec": 3.046144256,
+        "cpu_system_sec": 2.633704192
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": "[Errno 2] No such file or directory: '/var/folders/pk/ksqc41pj60q3589gfwhqz5tw0000gn/T/autogluon_3kykevd_/models/LightGBMLarge/model.pkl'"
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "seed": 42,
       "fold": -1,
-      "pipeline_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_2_pipeline.joblib",
+      "pipeline_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1905333,
-      "shap_time_sec": 7.198396332998527,
+      "model_size_bytes": 27007,
+      "shap_time_sec": null,
       "lime_time_sec": null,
       "resource_before": {
-        "rss_mb": 697.640625,
-        "vms_mb": 403357.875,
-        "cpu_user_sec": 22.781939712,
-        "cpu_system_sec": 1.605524096
+        "rss_mb": 627.078125,
+        "vms_mb": 426663.46875,
+        "cpu_user_sec": 3.048355584,
+        "cpu_system_sec": 2.645687296
       },
       "resource_after": {
-        "rss_mb": 698.953125,
-        "vms_mb": 403354.046875,
-        "cpu_user_sec": 37.653848064,
-        "cpu_system_sec": 2.800672768
+        "rss_mb": 631.5,
+        "vms_mb": 426666.46875,
+        "cpu_user_sec": 3.19875072,
+        "cpu_system_sec": 2.974545408
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": "[Errno 2] No such file or directory: '/var/folders/pk/ksqc41pj60q3589gfwhqz5tw0000gn/T/autogluon_vmhaep60/models/NeuralNetFastAI/model.pkl'"
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "seed": 42,
       "fold": -1,
-      "pipeline_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_3_pipeline.joblib",
+      "pipeline_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1291461,
-      "shap_time_sec": 8.390820667002117,
+      "model_size_bytes": 27007,
+      "shap_time_sec": null,
       "lime_time_sec": null,
       "resource_before": {
-        "rss_mb": 746.84375,
-        "vms_mb": 403403.265625,
-        "cpu_user_sec": 38.006460416,
-        "cpu_system_sec": 2.813595392
+        "rss_mb": 631.546875,
+        "vms_mb": 426666.46875,
+        "cpu_user_sec": 3.216122112,
+        "cpu_system_sec": 2.976332544
       },
       "resource_after": {
-        "rss_mb": 747.40625,
-        "vms_mb": 403400.53125,
-        "cpu_user_sec": 61.552279552,
-        "cpu_system_sec": 4.061167872
+        "rss_mb": 631.625,
+        "vms_mb": 426666.46875,
+        "cpu_user_sec": 3.290742272,
+        "cpu_system_sec": 3.1423552
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": "[Errno 2] No such file or directory: '/var/folders/pk/ksqc41pj60q3589gfwhqz5tw0000gn/T/autogluon_0_p9pw6f/models/NeuralNetFastAI/model.pkl'"
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "seed": 42,
       "fold": -1,
-      "pipeline_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_4_pipeline.joblib",
+      "pipeline_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1387637,
-      "shap_time_sec": 11.667830624995986,
+      "model_size_bytes": 27007,
+      "shap_time_sec": null,
       "lime_time_sec": null,
       "resource_before": {
-        "rss_mb": 789.65625,
-        "vms_mb": 403446.328125,
-        "cpu_user_sec": 61.913833472,
-        "cpu_system_sec": 4.072954112
+        "rss_mb": 631.625,
+        "vms_mb": 426666.46875,
+        "cpu_user_sec": 3.306382848,
+        "cpu_system_sec": 3.144360448
       },
       "resource_after": {
-        "rss_mb": 789.84375,
-        "vms_mb": 403443.046875,
-        "cpu_user_sec": 113.812013056,
-        "cpu_system_sec": 5.4663808
+        "rss_mb": 635.078125,
+        "vms_mb": 426666.46875,
+        "cpu_user_sec": 3.412798208,
+        "cpu_system_sec": 3.246855168
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": "[Errno 2] No such file or directory: '/var/folders/pk/ksqc41pj60q3589gfwhqz5tw0000gn/T/autogluon_qft60id3/models/LightGBMXT/model.pkl'"
     },
     {
-      "experiment": "automl_suite_flaml",
+      "experiment": "automl_suite_autogluon",
       "seed": 42,
       "fold": -1,
-      "pipeline_path": "artifacts/experiments/automl_suite_flaml/seed_42/fold_5_pipeline.joblib",
+      "pipeline_path": "artifacts/experiments/automl_suite_autogluon/seed_42/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 3135045,
-      "shap_time_sec": 5.951168708998011,
+      "model_size_bytes": 27007,
+      "shap_time_sec": null,
       "lime_time_sec": null,
       "resource_before": {
-        "rss_mb": 800.4375,
-        "vms_mb": 403457.046875,
-        "cpu_user_sec": 114.237661184,
-        "cpu_system_sec": 5.477443072
+        "rss_mb": 635.078125,
+        "vms_mb": 426666.46875,
+        "cpu_user_sec": 3.4357056,
+        "cpu_system_sec": 3.247063296
       },
       "resource_after": {
-        "rss_mb": 800.390625,
-        "vms_mb": 403453.765625,
-        "cpu_user_sec": 124.453445632,
-        "cpu_system_sec": 6.648080384
+        "rss_mb": 635.078125,
+        "vms_mb": 426666.46875,
+        "cpu_user_sec": 3.503783936,
+        "cpu_system_sec": 3.445968384
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": "[Errno 2] No such file or directory: '/var/folders/pk/ksqc41pj60q3589gfwhqz5tw0000gn/T/autogluon_kg2paq_4/models/LightGBMLarge/model.pkl'"
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1443,22 +2434,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1132223,
-      "shap_time_sec": 7.522470666008303,
-      "lime_time_sec": null,
+      "model_size_bytes": 1131599,
+      "shap_time_sec": 6.961826749989996,
+      "lime_time_sec": 0.2407754999876488,
       "resource_before": {
-        "rss_mb": 802.421875,
-        "vms_mb": 404480.671875,
-        "cpu_user_sec": 124.76002304,
-        "cpu_system_sec": 6.657569792
+        "rss_mb": 636.65625,
+        "vms_mb": 427690.46875,
+        "cpu_user_sec": 3.511802624,
+        "cpu_system_sec": 3.447035648
       },
       "resource_after": {
-        "rss_mb": 821.984375,
-        "vms_mb": 404642.09375,
-        "cpu_user_sec": 148.791246848,
-        "cpu_system_sec": 8.88244224
+        "rss_mb": 676.890625,
+        "vms_mb": 427762.5,
+        "cpu_user_sec": 27.830388736,
+        "cpu_system_sec": 7.800849408
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1466,22 +2457,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1132687,
-      "shap_time_sec": 7.523749832995236,
-      "lime_time_sec": null,
+      "model_size_bytes": 1132063,
+      "shap_time_sec": 7.066584542000783,
+      "lime_time_sec": 0.14530937500239816,
       "resource_before": {
-        "rss_mb": 823.6875,
-        "vms_mb": 404646.09375,
-        "cpu_user_sec": 149.097955328,
-        "cpu_system_sec": 8.895290368
+        "rss_mb": 815.0,
+        "vms_mb": 427926.484375,
+        "cpu_user_sec": 29.322717184,
+        "cpu_system_sec": 9.18996992
       },
       "resource_after": {
-        "rss_mb": 827.96875,
-        "vms_mb": 404898.265625,
-        "cpu_user_sec": 173.243809792,
-        "cpu_system_sec": 11.078925312
+        "rss_mb": 820.28125,
+        "vms_mb": 427922.109375,
+        "cpu_user_sec": 53.518409728,
+        "cpu_system_sec": 11.292649472
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1489,22 +2480,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1132079,
-      "shap_time_sec": 7.519035125005757,
-      "lime_time_sec": null,
+      "model_size_bytes": 1131455,
+      "shap_time_sec": 6.932187833997887,
+      "lime_time_sec": 0.1774391250073677,
       "resource_before": {
-        "rss_mb": 828.609375,
-        "vms_mb": 404901.71875,
-        "cpu_user_sec": 173.550829568,
-        "cpu_system_sec": 11.089568768
+        "rss_mb": 849.921875,
+        "vms_mb": 427953.5,
+        "cpu_user_sec": 54.386561024,
+        "cpu_system_sec": 12.816239616
       },
       "resource_after": {
-        "rss_mb": 828.875,
-        "vms_mb": 404898.4375,
-        "cpu_user_sec": 197.677678592,
-        "cpu_system_sec": 13.292049408
+        "rss_mb": 851.875,
+        "vms_mb": 427951.859375,
+        "cpu_user_sec": 78.690729984,
+        "cpu_system_sec": 15.383508992
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1512,22 +2503,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1131071,
-      "shap_time_sec": 7.52457929198863,
-      "lime_time_sec": null,
+      "model_size_bytes": 1130447,
+      "shap_time_sec": 6.9422089160070755,
+      "lime_time_sec": 0.17359954099811148,
       "resource_before": {
-        "rss_mb": 829.484375,
-        "vms_mb": 404901.890625,
-        "cpu_user_sec": 197.98695936,
-        "cpu_system_sec": 13.303105536
+        "rss_mb": 883.53125,
+        "vms_mb": 427984.703125,
+        "cpu_user_sec": 79.477293056,
+        "cpu_system_sec": 16.838924288
       },
       "resource_after": {
-        "rss_mb": 830.890625,
-        "vms_mb": 404898.609375,
-        "cpu_user_sec": 222.121066496,
-        "cpu_system_sec": 15.534810112
+        "rss_mb": 885.96875,
+        "vms_mb": 427981.421875,
+        "cpu_user_sec": 103.613087744,
+        "cpu_system_sec": 19.427852288
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1535,22 +2526,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_42/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1132495,
-      "shap_time_sec": 7.796359457977815,
-      "lime_time_sec": null,
+      "model_size_bytes": 1131871,
+      "shap_time_sec": 7.018955167004606,
+      "lime_time_sec": 0.1615864579944173,
       "resource_before": {
-        "rss_mb": 860.65625,
-        "vms_mb": 404930.734375,
-        "cpu_user_sec": 222.42828288,
-        "cpu_system_sec": 15.547235328
+        "rss_mb": 888.984375,
+        "vms_mb": 427986.25,
+        "cpu_user_sec": 104.344879104,
+        "cpu_system_sec": 20.9480704
       },
       "resource_after": {
-        "rss_mb": 865.28125,
-        "vms_mb": 404927.453125,
-        "cpu_user_sec": 246.989144064,
-        "cpu_system_sec": 17.760069632
+        "rss_mb": 890.515625,
+        "vms_mb": 427982.421875,
+        "cpu_user_sec": 128.733626368,
+        "cpu_system_sec": 23.470209024
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1558,22 +2549,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1132063,
-      "shap_time_sec": 7.6339175419998355,
-      "lime_time_sec": null,
+      "model_size_bytes": 1131439,
+      "shap_time_sec": 7.572631542003364,
+      "lime_time_sec": 0.23078445800638292,
       "resource_before": {
-        "rss_mb": 895.109375,
-        "vms_mb": 404959.5625,
-        "cpu_user_sec": 247.296311296,
-        "cpu_system_sec": 17.773213696
+        "rss_mb": 909.84375,
+        "vms_mb": 428015.796875,
+        "cpu_user_sec": 129.58793728,
+        "cpu_system_sec": 24.920989696
       },
       "resource_after": {
-        "rss_mb": 895.09375,
-        "vms_mb": 404956.28125,
-        "cpu_user_sec": 271.634038784,
-        "cpu_system_sec": 20.000995328
+        "rss_mb": 744.265625,
+        "vms_mb": 428013.0625,
+        "cpu_user_sec": 154.04269568,
+        "cpu_system_sec": 27.86136064
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1581,22 +2572,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1129487,
-      "shap_time_sec": 7.606594833021518,
-      "lime_time_sec": null,
+      "model_size_bytes": 1128863,
+      "shap_time_sec": 6.825015916998382,
+      "lime_time_sec": 0.15070837500388734,
       "resource_before": {
-        "rss_mb": 895.484375,
-        "vms_mb": 404959.734375,
-        "cpu_user_sec": 271.945302016,
-        "cpu_system_sec": 20.012036096
+        "rss_mb": 786.75,
+        "vms_mb": 428046.359375,
+        "cpu_user_sec": 154.842955776,
+        "cpu_system_sec": 29.484556288
       },
       "resource_after": {
-        "rss_mb": 895.703125,
-        "vms_mb": 404956.453125,
-        "cpu_user_sec": 296.022573056,
-        "cpu_system_sec": 22.295773184
+        "rss_mb": 790.953125,
+        "vms_mb": 428043.625,
+        "cpu_user_sec": 179.048906752,
+        "cpu_system_sec": 32.07339008
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1604,22 +2595,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1132367,
-      "shap_time_sec": 7.630701250018319,
-      "lime_time_sec": null,
+      "model_size_bytes": 1131743,
+      "shap_time_sec": 7.061147833999712,
+      "lime_time_sec": 0.17003125000337604,
       "resource_before": {
-        "rss_mb": 896.140625,
-        "vms_mb": 404960.453125,
-        "cpu_user_sec": 296.333180928,
-        "cpu_system_sec": 22.308651008
+        "rss_mb": 822.953125,
+        "vms_mb": 428077.125,
+        "cpu_user_sec": 179.668598784,
+        "cpu_system_sec": 33.771966464
       },
       "resource_after": {
-        "rss_mb": 896.203125,
-        "vms_mb": 404957.625,
-        "cpu_user_sec": 320.557481984,
-        "cpu_system_sec": 24.575055872
+        "rss_mb": 823.515625,
+        "vms_mb": 428074.296875,
+        "cpu_user_sec": 204.162236416,
+        "cpu_system_sec": 36.455903232
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1627,22 +2618,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1132847,
-      "shap_time_sec": 7.679538583004614,
-      "lime_time_sec": null,
+      "model_size_bytes": 1132223,
+      "shap_time_sec": 7.265579875005642,
+      "lime_time_sec": 0.18792462500277907,
       "resource_before": {
-        "rss_mb": 896.5,
-        "vms_mb": 404961.625,
-        "cpu_user_sec": 320.87212032,
-        "cpu_system_sec": 24.587710464
+        "rss_mb": 855.5,
+        "vms_mb": 428107.234375,
+        "cpu_user_sec": 204.962496512,
+        "cpu_system_sec": 37.960032256
       },
       "resource_after": {
-        "rss_mb": 896.421875,
-        "vms_mb": 404957.796875,
-        "cpu_user_sec": 345.167265792,
-        "cpu_system_sec": 26.846537728
+        "rss_mb": 737.59375,
+        "vms_mb": 428103.953125,
+        "cpu_user_sec": 229.405343744,
+        "cpu_system_sec": 40.6925312
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_catboost_baseline",
@@ -1650,22 +2641,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_catboost_baseline/seed_77/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 1130623,
-      "shap_time_sec": 7.636084874975495,
-      "lime_time_sec": null,
+      "model_size_bytes": 1129999,
+      "shap_time_sec": 7.019919875005144,
+      "lime_time_sec": 0.18652275000931695,
       "resource_before": {
-        "rss_mb": 896.984375,
-        "vms_mb": 404960.703125,
-        "cpu_user_sec": 345.476825088,
-        "cpu_system_sec": 26.859055104
+        "rss_mb": 734.28125,
+        "vms_mb": 428137.796875,
+        "cpu_user_sec": 230.184157184,
+        "cpu_system_sec": 42.169556992
       },
       "resource_after": {
-        "rss_mb": 897.015625,
-        "vms_mb": 404957.96875,
-        "cpu_user_sec": 369.468243968,
-        "cpu_system_sec": 29.120059392
+        "rss_mb": 656.8125,
+        "vms_mb": 428134.515625,
+        "cpu_user_sec": 254.206951424,
+        "cpu_system_sec": 44.852801536
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1673,22 +2664,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 889265,
-      "shap_time_sec": 37.689767458010465,
-      "lime_time_sec": null,
+      "model_size_bytes": 897345,
+      "shap_time_sec": 36.72246633299801,
+      "lime_time_sec": 0.3035872920008842,
       "resource_before": {
-        "rss_mb": 897.9375,
-        "vms_mb": 404962.96875,
-        "cpu_user_sec": 369.782063104,
-        "cpu_system_sec": 29.13164288
+        "rss_mb": 691.828125,
+        "vms_mb": 428191.015625,
+        "cpu_user_sec": 255.186419712,
+        "cpu_system_sec": 46.213873664
       },
       "resource_after": {
-        "rss_mb": 898.1875,
-        "vms_mb": 404960.140625,
-        "cpu_user_sec": 646.05093888,
-        "cpu_system_sec": 31.245910016
+        "rss_mb": 691.734375,
+        "vms_mb": 427963.53125,
+        "cpu_user_sec": 558.270316544,
+        "cpu_system_sec": 75.135172608
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1696,22 +2687,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 839569,
-      "shap_time_sec": 36.99033079101355,
-      "lime_time_sec": null,
+      "model_size_bytes": 847649,
+      "shap_time_sec": 47.07107508399349,
+      "lime_time_sec": 0.2876250830013305,
       "resource_before": {
-        "rss_mb": 899.171875,
-        "vms_mb": 404965.140625,
-        "cpu_user_sec": 646.364659712,
-        "cpu_system_sec": 31.255640064
+        "rss_mb": 734.984375,
+        "vms_mb": 428007.5625,
+        "cpu_user_sec": 559.13119744,
+        "cpu_system_sec": 76.723625984
       },
       "resource_after": {
-        "rss_mb": 899.15625,
-        "vms_mb": 404960.765625,
-        "cpu_user_sec": 909.69636864,
-        "cpu_system_sec": 33.416689664
+        "rss_mb": 192.609375,
+        "vms_mb": 427975.140625,
+        "cpu_user_sec": 928.41312256,
+        "cpu_system_sec": 108.447727616
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1719,22 +2710,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 853361,
-      "shap_time_sec": 35.48931224999251,
-      "lime_time_sec": null,
+      "model_size_bytes": 861457,
+      "shap_time_sec": 34.28293779199885,
+      "lime_time_sec": 0.27090437499282416,
       "resource_before": {
-        "rss_mb": 900.09375,
-        "vms_mb": 404965.765625,
-        "cpu_user_sec": 910.003339264,
-        "cpu_system_sec": 33.42713856
+        "rss_mb": 302.15625,
+        "vms_mb": 428036.21875,
+        "cpu_user_sec": 929.674166272,
+        "cpu_system_sec": 109.604241408
       },
       "resource_after": {
-        "rss_mb": 899.984375,
-        "vms_mb": 404962.484375,
-        "cpu_user_sec": 1165.21631744,
-        "cpu_system_sec": 35.120812032
+        "rss_mb": 200.1875,
+        "vms_mb": 427992.1875,
+        "cpu_user_sec": 1208.696569856,
+        "cpu_system_sec": 138.05182976
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1742,22 +2733,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 885377,
-      "shap_time_sec": 36.14959466698929,
-      "lime_time_sec": null,
+      "model_size_bytes": 893537,
+      "shap_time_sec": 35.36568504200841,
+      "lime_time_sec": 0.27052954099781346,
       "resource_before": {
-        "rss_mb": 930.109375,
-        "vms_mb": 404994.609375,
-        "cpu_user_sec": 1165.52368128,
-        "cpu_system_sec": 35.13069568
+        "rss_mb": 275.421875,
+        "vms_mb": 428064.875,
+        "cpu_user_sec": 1209.560203264,
+        "cpu_system_sec": 139.796856832
       },
       "resource_after": {
-        "rss_mb": 930.140625,
-        "vms_mb": 404991.328125,
-        "cpu_user_sec": 1430.953525248,
-        "cpu_system_sec": 36.841660416
+        "rss_mb": 234.890625,
+        "vms_mb": 428020.84375,
+        "cpu_user_sec": 1522.638913536,
+        "cpu_system_sec": 160.892731392
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1765,22 +2756,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_42/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 864913,
-      "shap_time_sec": 36.119890542002395,
-      "lime_time_sec": null,
+      "model_size_bytes": 872993,
+      "shap_time_sec": 34.20125333299802,
+      "lime_time_sec": 0.29313662499771453,
       "resource_before": {
-        "rss_mb": 931.703125,
-        "vms_mb": 404994.78125,
-        "cpu_user_sec": 1431.260626944,
-        "cpu_system_sec": 36.851040256
+        "rss_mb": 308.234375,
+        "vms_mb": 428094.0625,
+        "cpu_user_sec": 1524.427259904,
+        "cpu_system_sec": 161.452539904
       },
       "resource_after": {
-        "rss_mb": 931.765625,
-        "vms_mb": 404991.5,
-        "cpu_user_sec": 1693.882908672,
-        "cpu_system_sec": 38.550163456
+        "rss_mb": 219.375,
+        "vms_mb": 428090.78125,
+        "cpu_user_sec": 1824.667205632,
+        "cpu_system_sec": 183.690084352
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1788,22 +2779,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 870817,
-      "shap_time_sec": 36.14058812498115,
-      "lime_time_sec": null,
+      "model_size_bytes": 878961,
+      "shap_time_sec": 33.47256591600308,
+      "lime_time_sec": 0.3240237919962965,
       "resource_before": {
-        "rss_mb": 933.140625,
-        "vms_mb": 404995.5,
-        "cpu_user_sec": 1694.191976448,
-        "cpu_system_sec": 38.560350208
+        "rss_mb": 288.21875,
+        "vms_mb": 428122.734375,
+        "cpu_user_sec": 1826.007416832,
+        "cpu_system_sec": 184.691048448
       },
       "resource_after": {
-        "rss_mb": 933.0625,
-        "vms_mb": 404991.671875,
-        "cpu_user_sec": 1958.088802304,
-        "cpu_system_sec": 40.530386944
+        "rss_mb": 259.3125,
+        "vms_mb": 428089.21875,
+        "cpu_user_sec": 2135.116087296,
+        "cpu_system_sec": 203.156045824
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1811,22 +2802,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 843473,
-      "shap_time_sec": 35.67165862498223,
-      "lime_time_sec": null,
+      "model_size_bytes": 851681,
+      "shap_time_sec": 32.296431208989816,
+      "lime_time_sec": 0.293204917004914,
       "resource_before": {
-        "rss_mb": 933.546875,
-        "vms_mb": 404996.125,
-        "cpu_user_sec": 1958.455934976,
-        "cpu_system_sec": 40.545775616
+        "rss_mb": 321.21875,
+        "vms_mb": 428150.75,
+        "cpu_user_sec": 2136.943099904,
+        "cpu_system_sec": 203.79639808
       },
       "resource_after": {
-        "rss_mb": 933.453125,
-        "vms_mb": 404992.84375,
-        "cpu_user_sec": 2220.618678272,
-        "cpu_system_sec": 42.232385536
+        "rss_mb": 323.546875,
+        "vms_mb": 428147.46875,
+        "cpu_user_sec": 2426.993639424,
+        "cpu_system_sec": 224.25542656
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1834,22 +2825,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 895073,
-      "shap_time_sec": 37.831334540998796,
-      "lime_time_sec": null,
+      "model_size_bytes": 903185,
+      "shap_time_sec": 34.25215591699816,
+      "lime_time_sec": 0.2888691660045879,
       "resource_before": {
-        "rss_mb": 933.875,
-        "vms_mb": 404996.84375,
-        "cpu_user_sec": 2220.928008192,
-        "cpu_system_sec": 42.241695744
+        "rss_mb": 355.484375,
+        "vms_mb": 428179.390625,
+        "cpu_user_sec": 2427.803926528,
+        "cpu_system_sec": 225.869348864
       },
       "resource_after": {
-        "rss_mb": 933.859375,
-        "vms_mb": 404993.015625,
-        "cpu_user_sec": 2499.94543104,
-        "cpu_system_sec": 43.999801344
+        "rss_mb": 313.75,
+        "vms_mb": 428134.8125,
+        "cpu_user_sec": 2741.644558336,
+        "cpu_system_sec": 245.614592
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1857,22 +2848,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 852193,
-      "shap_time_sec": 35.50666541597457,
-      "lime_time_sec": null,
+      "model_size_bytes": 860273,
+      "shap_time_sec": 31.680675957992207,
+      "lime_time_sec": 0.26575391700316686,
       "resource_before": {
-        "rss_mb": 934.328125,
-        "vms_mb": 404996.46875,
-        "cpu_user_sec": 2500.252401664,
-        "cpu_system_sec": 44.00883712
+        "rss_mb": 387.21875,
+        "vms_mb": 428208.578125,
+        "cpu_user_sec": 2742.386688,
+        "cpu_system_sec": 247.360258048
       },
       "resource_after": {
-        "rss_mb": 716.03125,
-        "vms_mb": 404992.640625,
-        "cpu_user_sec": 2754.743369728,
-        "cpu_system_sec": 46.209527808
+        "rss_mb": 388.765625,
+        "vms_mb": 428205.296875,
+        "cpu_user_sec": 3037.635018752,
+        "cpu_system_sec": 265.16013056
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_lightgbm_baseline",
@@ -1880,22 +2871,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_lightgbm_baseline/seed_77/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 877217,
-      "shap_time_sec": 37.87196662501083,
-      "lime_time_sec": null,
+      "model_size_bytes": 885361,
+      "shap_time_sec": 34.31627200001094,
+      "lime_time_sec": 0.27736941698822193,
       "resource_before": {
-        "rss_mb": 802.28125,
-        "vms_mb": 404996.640625,
-        "cpu_user_sec": 2755.050602496,
-        "cpu_system_sec": 46.220603392
+        "rss_mb": 420.609375,
+        "vms_mb": 428238.796875,
+        "cpu_user_sec": 3038.43377152,
+        "cpu_system_sec": 266.90469888
       },
       "resource_after": {
-        "rss_mb": 802.828125,
-        "vms_mb": 404993.359375,
-        "cpu_user_sec": 3037.49922816,
-        "cpu_system_sec": 47.952580608
+        "rss_mb": 391.3125,
+        "vms_mb": 428205.28125,
+        "cpu_user_sec": 3360.408993792,
+        "cpu_system_sec": 284.776071168
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -1903,22 +2894,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 450543,
-      "shap_time_sec": 10.098725374991773,
-      "lime_time_sec": null,
+      "model_size_bytes": 449775,
+      "shap_time_sec": 11.012021499991533,
+      "lime_time_sec": 0.1780166249955073,
       "resource_before": {
-        "rss_mb": 845.9375,
-        "vms_mb": 404998.359375,
-        "cpu_user_sec": 3037.806460928,
-        "cpu_system_sec": 47.963348992
+        "rss_mb": 457.15625,
+        "vms_mb": 428267.265625,
+        "cpu_user_sec": 3361.213775872,
+        "cpu_system_sec": 286.384324608
       },
       "resource_after": {
-        "rss_mb": 845.859375,
-        "vms_mb": 404994.53125,
-        "cpu_user_sec": 3074.093744128,
-        "cpu_system_sec": 48.95055872
+        "rss_mb": 772.265625,
+        "vms_mb": 428265.53125,
+        "cpu_user_sec": 3405.989281792,
+        "cpu_system_sec": 287.4875904
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -1926,22 +2917,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 441535,
-      "shap_time_sec": 9.820071875001304,
-      "lime_time_sec": null,
+      "model_size_bytes": 442751,
+      "shap_time_sec": 10.325412000005599,
+      "lime_time_sec": 0.21355616599612404,
       "resource_before": {
-        "rss_mb": 888.234375,
-        "vms_mb": 404997.4375,
-        "cpu_user_sec": 3074.40386048,
-        "cpu_system_sec": 48.960843776
+        "rss_mb": 773.484375,
+        "vms_mb": 428268.265625,
+        "cpu_user_sec": 3407.024488448,
+        "cpu_system_sec": 288.941113344
       },
       "resource_after": {
-        "rss_mb": 889.328125,
-        "vms_mb": 404994.703125,
-        "cpu_user_sec": 3108.714315776,
-        "cpu_system_sec": 49.955074048
+        "rss_mb": 773.8125,
+        "vms_mb": 428265.53125,
+        "cpu_user_sec": 3449.01025792,
+        "cpu_system_sec": 290.40279552
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -1949,22 +2940,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 440943,
-      "shap_time_sec": 9.520214666990796,
-      "lime_time_sec": null,
+      "model_size_bytes": 439695,
+      "shap_time_sec": 10.159699208001257,
+      "lime_time_sec": 0.17853733400988858,
       "resource_before": {
-        "rss_mb": 891.984375,
-        "vms_mb": 405000.15625,
-        "cpu_user_sec": 3109.026267136,
-        "cpu_system_sec": 49.966149632
+        "rss_mb": 793.390625,
+        "vms_mb": 428268.265625,
+        "cpu_user_sec": 3449.66823936,
+        "cpu_system_sec": 292.203593728
       },
       "resource_after": {
-        "rss_mb": 895.03125,
-        "vms_mb": 404996.875,
-        "cpu_user_sec": 3141.994020864,
-        "cpu_system_sec": 50.871435264
+        "rss_mb": 763.53125,
+        "vms_mb": 428178.515625,
+        "cpu_user_sec": 3490.654978048,
+        "cpu_system_sec": 293.714952192
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -1972,22 +2963,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 447887,
-      "shap_time_sec": 10.015917499986244,
-      "lime_time_sec": null,
+      "model_size_bytes": 447391,
+      "shap_time_sec": 10.678634000010788,
+      "lime_time_sec": 0.18917125000734814,
       "resource_before": {
-        "rss_mb": 926.046875,
-        "vms_mb": 405038.984375,
-        "cpu_user_sec": 3142.308069376,
-        "cpu_system_sec": 50.881695744
+        "rss_mb": 793.9375,
+        "vms_mb": 428210.9375,
+        "cpu_user_sec": 3491.462905856,
+        "cpu_system_sec": 295.480164352
       },
       "resource_after": {
-        "rss_mb": 926.09375,
-        "vms_mb": 405035.703125,
-        "cpu_user_sec": 3178.13686272,
-        "cpu_system_sec": 51.856105472
+        "rss_mb": 691.390625,
+        "vms_mb": 428092.640625,
+        "cpu_user_sec": 3534.768832512,
+        "cpu_system_sec": 296.834269184
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -1995,22 +2986,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_42/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 449167,
-      "shap_time_sec": 10.140424625016749,
-      "lime_time_sec": null,
+      "model_size_bytes": 448895,
+      "shap_time_sec": 12.16562108398648,
+      "lime_time_sec": 0.31821008399128914,
       "resource_before": {
-        "rss_mb": 926.515625,
-        "vms_mb": 405039.15625,
-        "cpu_user_sec": 3178.447765504,
-        "cpu_system_sec": 51.865485312
+        "rss_mb": 750.53125,
+        "vms_mb": 428154.265625,
+        "cpu_user_sec": 3535.493398528,
+        "cpu_system_sec": 298.537385984
       },
       "resource_after": {
-        "rss_mb": 926.421875,
-        "vms_mb": 405035.875,
-        "cpu_user_sec": 3214.304346112,
-        "cpu_system_sec": 52.938215424
+        "rss_mb": 253.40625,
+        "vms_mb": 428150.984375,
+        "cpu_user_sec": 3579.314176,
+        "cpu_system_sec": 300.500811776
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -2018,22 +3009,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 445151,
-      "shap_time_sec": 9.811620166990906,
-      "lime_time_sec": null,
+      "model_size_bytes": 444319,
+      "shap_time_sec": 10.154354709011386,
+      "lime_time_sec": 0.1722754590009572,
       "resource_before": {
-        "rss_mb": 926.6875,
-        "vms_mb": 405039.328125,
-        "cpu_user_sec": 3214.614986752,
-        "cpu_system_sec": 52.948877312
+        "rss_mb": 348.921875,
+        "vms_mb": 428154.265625,
+        "cpu_user_sec": 3580.552544256,
+        "cpu_system_sec": 301.38466304
       },
       "resource_after": {
-        "rss_mb": 917.375,
-        "vms_mb": 405036.046875,
-        "cpu_user_sec": 3249.822498816,
-        "cpu_system_sec": 53.846765568
+        "rss_mb": 238.0,
+        "vms_mb": 428081.046875,
+        "cpu_user_sec": 3621.388550144,
+        "cpu_system_sec": 302.708195328
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -2041,22 +3032,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 441487,
-      "shap_time_sec": 9.467108749988256,
-      "lime_time_sec": null,
+      "model_size_bytes": 441535,
+      "shap_time_sec": 10.265405916012242,
+      "lime_time_sec": 0.23181550001027063,
       "resource_before": {
-        "rss_mb": 918.125,
-        "vms_mb": 405039.5,
-        "cpu_user_sec": 3250.137858048,
-        "cpu_system_sec": 53.85725952
+        "rss_mb": 312.296875,
+        "vms_mb": 428154.8125,
+        "cpu_user_sec": 3622.04626944,
+        "cpu_system_sec": 304.539140096
       },
       "resource_after": {
-        "rss_mb": 923.265625,
-        "vms_mb": 405036.21875,
-        "cpu_user_sec": 3282.302664704,
-        "cpu_system_sec": 54.756941824
+        "rss_mb": 314.453125,
+        "vms_mb": 428150.984375,
+        "cpu_user_sec": 3662.585266176,
+        "cpu_system_sec": 306.77876736
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -2064,22 +3055,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 451759,
-      "shap_time_sec": 10.211930541001493,
-      "lime_time_sec": null,
+      "model_size_bytes": 450863,
+      "shap_time_sec": 11.36925324999902,
+      "lime_time_sec": 0.1802190000016708,
       "resource_before": {
-        "rss_mb": 924.828125,
-        "vms_mb": 405042.21875,
-        "cpu_user_sec": 3282.614878208,
-        "cpu_system_sec": 54.76696064
+        "rss_mb": 346.90625,
+        "vms_mb": 428182.921875,
+        "cpu_user_sec": 3663.14520576,
+        "cpu_system_sec": 308.60935168
       },
       "resource_after": {
-        "rss_mb": 924.734375,
-        "vms_mb": 405038.390625,
-        "cpu_user_sec": 3321.146638336,
-        "cpu_system_sec": 55.688589312
+        "rss_mb": 347.3125,
+        "vms_mb": 428179.640625,
+        "cpu_user_sec": 3709.149904896,
+        "cpu_system_sec": 309.95300352
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -2087,22 +3078,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 445967,
-      "shap_time_sec": 10.150847042008536,
-      "lime_time_sec": null,
+      "model_size_bytes": 445279,
+      "shap_time_sec": 11.281781375000719,
+      "lime_time_sec": 0.17228275000525173,
       "resource_before": {
-        "rss_mb": 925.140625,
-        "vms_mb": 405041.671875,
-        "cpu_user_sec": 3321.458065408,
-        "cpu_system_sec": 55.699034112
+        "rss_mb": 379.46875,
+        "vms_mb": 428211.5625,
+        "cpu_user_sec": 3709.962027008,
+        "cpu_system_sec": 311.590715392
       },
       "resource_after": {
-        "rss_mb": 926.203125,
-        "vms_mb": 405038.390625,
-        "cpu_user_sec": 3357.614276608,
-        "cpu_system_sec": 56.632475648
+        "rss_mb": 671.984375,
+        "vms_mb": 428208.28125,
+        "cpu_user_sec": 3754.712367104,
+        "cpu_system_sec": 313.170132992
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "boosting_suite_xgboost_baseline",
@@ -2110,22 +3101,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/boosting_suite_xgboost_baseline/seed_77/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 444527,
-      "shap_time_sec": 10.080999750003684,
-      "lime_time_sec": null,
+      "model_size_bytes": 443439,
+      "shap_time_sec": 11.246594832991832,
+      "lime_time_sec": 0.17937225000059698,
       "resource_before": {
-        "rss_mb": 927.21875,
-        "vms_mb": 405041.125,
-        "cpu_user_sec": 3357.938548736,
-        "cpu_system_sec": 56.643260416
+        "rss_mb": 701.71875,
+        "vms_mb": 428211.015625,
+        "cpu_user_sec": 3756.204490752,
+        "cpu_system_sec": 314.163232768
       },
       "resource_after": {
-        "rss_mb": 922.0625,
-        "vms_mb": 405038.390625,
-        "cpu_user_sec": 3394.280095744,
-        "cpu_system_sec": 57.588023296
+        "rss_mb": 661.203125,
+        "vms_mb": 428110.8125,
+        "cpu_user_sec": 3800.2884608,
+        "cpu_system_sec": 316.098871296
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_baseline",
@@ -2133,22 +3124,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 450543,
-      "shap_time_sec": 10.219551624992164,
-      "lime_time_sec": null,
+      "model_size_bytes": 449775,
+      "shap_time_sec": 11.745335375002469,
+      "lime_time_sec": 0.20538033299089875,
       "resource_before": {
-        "rss_mb": 923.234375,
-        "vms_mb": 405043.21875,
-        "cpu_user_sec": 3394.590212096,
-        "cpu_system_sec": 57.598390272
+        "rss_mb": 616.703125,
+        "vms_mb": 428030.046875,
+        "cpu_user_sec": 3802.02385408,
+        "cpu_system_sec": 316.831367168
       },
       "resource_after": {
-        "rss_mb": 829.6875,
-        "vms_mb": 405039.390625,
-        "cpu_user_sec": 3432.382988288,
-        "cpu_system_sec": 58.570539008
+        "rss_mb": 626.390625,
+        "vms_mb": 428036.46875,
+        "cpu_user_sec": 3848.138391552,
+        "cpu_system_sec": 318.874484736
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_baseline",
@@ -2156,22 +3147,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 441535,
-      "shap_time_sec": 9.961021707975306,
-      "lime_time_sec": null,
+      "model_size_bytes": 442751,
+      "shap_time_sec": 11.434281124995323,
+      "lime_time_sec": 0.18428558300365694,
       "resource_before": {
-        "rss_mb": 843.21875,
-        "vms_mb": 405042.671875,
-        "cpu_user_sec": 3432.694939648,
-        "cpu_system_sec": 58.581696512
+        "rss_mb": 655.90625,
+        "vms_mb": 428067.21875,
+        "cpu_user_sec": 3849.550036992,
+        "cpu_system_sec": 320.027983872
       },
       "resource_after": {
-        "rss_mb": 842.40625,
-        "vms_mb": 405039.390625,
-        "cpu_user_sec": 3468.320833536,
-        "cpu_system_sec": 59.555057664
+        "rss_mb": 650.0625,
+        "vms_mb": 428065.03125,
+        "cpu_user_sec": 3893.793390592,
+        "cpu_system_sec": 322.325905408
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_baseline",
@@ -2179,22 +3170,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 440943,
-      "shap_time_sec": 9.861681833019247,
-      "lime_time_sec": null,
+      "model_size_bytes": 439695,
+      "shap_time_sec": 10.432456208000076,
+      "lime_time_sec": 0.1692743750027148,
       "resource_before": {
-        "rss_mb": 843.0625,
-        "vms_mb": 405042.671875,
-        "cpu_user_sec": 3468.632522752,
-        "cpu_system_sec": 59.565391872
+        "rss_mb": 680.421875,
+        "vms_mb": 428096.96875,
+        "cpu_user_sec": 3894.667640832,
+        "cpu_system_sec": 324.047798272
       },
       "resource_after": {
-        "rss_mb": 843.53125,
-        "vms_mb": 405039.390625,
-        "cpu_user_sec": 3503.462547456,
-        "cpu_system_sec": 60.526727168
+        "rss_mb": 680.53125,
+        "vms_mb": 428093.6875,
+        "cpu_user_sec": 3936.688275456,
+        "cpu_system_sec": 325.41753344
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_baseline",
@@ -2202,22 +3193,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 447887,
-      "shap_time_sec": 10.162658540997654,
-      "lime_time_sec": null,
+      "model_size_bytes": 447391,
+      "shap_time_sec": 10.950123165996047,
+      "lime_time_sec": 0.18005712499143556,
       "resource_before": {
-        "rss_mb": 843.875,
-        "vms_mb": 405042.671875,
-        "cpu_user_sec": 3503.774236672,
-        "cpu_system_sec": 60.537331712
+        "rss_mb": 710.671875,
+        "vms_mb": 428124.53125,
+        "cpu_user_sec": 3937.308770304,
+        "cpu_system_sec": 327.161249792
       },
       "resource_after": {
-        "rss_mb": 846.40625,
-        "vms_mb": 405039.390625,
-        "cpu_user_sec": 3541.23513856,
-        "cpu_system_sec": 61.51421952
+        "rss_mb": 690.140625,
+        "vms_mb": 428122.34375,
+        "cpu_user_sec": 3981.660127232,
+        "cpu_system_sec": 328.483995648
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_baseline",
@@ -2225,22 +3216,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_baseline/seed_42/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 449167,
-      "shap_time_sec": 10.143749667011434,
-      "lime_time_sec": null,
+      "model_size_bytes": 448895,
+      "shap_time_sec": 11.74150441600068,
+      "lime_time_sec": 0.18538658300531097,
       "resource_before": {
-        "rss_mb": 847.046875,
-        "vms_mb": 405044.21875,
-        "cpu_user_sec": 3541.54708992,
-        "cpu_system_sec": 61.524709376
+        "rss_mb": 720.015625,
+        "vms_mb": 428154.296875,
+        "cpu_user_sec": 3983.270739968,
+        "cpu_system_sec": 329.223766016
       },
       "resource_after": {
-        "rss_mb": 846.9375,
-        "vms_mb": 405040.390625,
-        "cpu_user_sec": 3578.729857024,
-        "cpu_system_sec": 62.513979392
+        "rss_mb": 716.8125,
+        "vms_mb": 428151.015625,
+        "cpu_user_sec": 4027.227570176,
+        "cpu_system_sec": 332.7352832
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_poly2",
@@ -2248,22 +3239,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_1_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 445232,
-      "shap_time_sec": 63.38962541599176,
-      "lime_time_sec": null,
+      "model_size_bytes": 443504,
+      "shap_time_sec": 61.942908666009316,
+      "lime_time_sec": 0.34254970800247975,
       "resource_before": {
-        "rss_mb": 848.828125,
-        "vms_mb": 405044.21875,
-        "cpu_user_sec": 3579.041284096,
-        "cpu_system_sec": 62.52519424
+        "rss_mb": 747.5,
+        "vms_mb": 428182.40625,
+        "cpu_user_sec": 4028.989964288,
+        "cpu_system_sec": 333.434257408
       },
       "resource_after": {
-        "rss_mb": 909.96875,
-        "vms_mb": 405191.453125,
-        "cpu_user_sec": 3676.791373824,
-        "cpu_system_sec": 67.473309696
+        "rss_mb": 690.984375,
+        "vms_mb": 428126.703125,
+        "cpu_user_sec": 4268.333989888,
+        "cpu_system_sec": 343.455793152
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_poly2",
@@ -2271,22 +3262,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_2_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 438288,
-      "shap_time_sec": 62.649816624994855,
-      "lime_time_sec": null,
+      "model_size_bytes": 435056,
+      "shap_time_sec": 62.7817872500018,
+      "lime_time_sec": 0.3346296660020016,
       "resource_before": {
-        "rss_mb": 930.015625,
-        "vms_mb": 405194.734375,
-        "cpu_user_sec": 3677.195599872,
-        "cpu_system_sec": 67.487690752
+        "rss_mb": 755.546875,
+        "vms_mb": 428192.234375,
+        "cpu_user_sec": 4270.640594944,
+        "cpu_system_sec": 344.318738432
       },
       "resource_after": {
-        "rss_mb": 847.765625,
-        "vms_mb": 405191.453125,
-        "cpu_user_sec": 3771.915829248,
-        "cpu_system_sec": 72.387887104
+        "rss_mb": 430.125,
+        "vms_mb": 428130.15625,
+        "cpu_user_sec": 4492.887588864,
+        "cpu_system_sec": 366.021869568
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_poly2",
@@ -2294,22 +3285,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_3_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 437744,
-      "shap_time_sec": 62.464057582983514,
-      "lime_time_sec": null,
+      "model_size_bytes": 433712,
+      "shap_time_sec": 61.017480291004176,
+      "lime_time_sec": 0.40766170898859855,
       "resource_before": {
-        "rss_mb": 871.6875,
-        "vms_mb": 405195.734375,
-        "cpu_user_sec": 3772.316647424,
-        "cpu_system_sec": 72.399233024
+        "rss_mb": 491.65625,
+        "vms_mb": 428191.78125,
+        "cpu_user_sec": 4494.687993856,
+        "cpu_system_sec": 366.616707072
       },
       "resource_after": {
-        "rss_mb": 868.84375,
-        "vms_mb": 405192.453125,
-        "cpu_user_sec": 3866.558201856,
-        "cpu_system_sec": 77.2775936
+        "rss_mb": 697.515625,
+        "vms_mb": 428130.15625,
+        "cpu_user_sec": 4707.479191552,
+        "cpu_system_sec": 388.53623808
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_poly2",
@@ -2317,22 +3308,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_4_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 443200,
-      "shap_time_sec": 62.85975450000842,
-      "lime_time_sec": null,
+      "model_size_bytes": 439296,
+      "shap_time_sec": 61.675993500000914,
+      "lime_time_sec": 0.37989829199796077,
       "resource_before": {
-        "rss_mb": 869.125,
-        "vms_mb": 405195.734375,
-        "cpu_user_sec": 3866.959282176,
-        "cpu_system_sec": 77.288308736
+        "rss_mb": 759.578125,
+        "vms_mb": 428191.6875,
+        "cpu_user_sec": 4709.17840896,
+        "cpu_system_sec": 389.941559296
       },
       "resource_after": {
-        "rss_mb": 838.46875,
-        "vms_mb": 405192.453125,
-        "cpu_user_sec": 3963.212791808,
-        "cpu_system_sec": 82.20106752
+        "rss_mb": 664.5,
+        "vms_mb": 428130.15625,
+        "cpu_user_sec": 4942.735081472,
+        "cpu_system_sec": 403.079954432
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     },
     {
       "experiment": "feature_ablation_xgboost_poly2",
@@ -2340,22 +3331,22 @@
       "fold": -1,
       "pipeline_path": "artifacts/experiments/feature_ablation_xgboost_poly2/seed_42/fold_5_pipeline.joblib",
       "target": "target",
-      "model_size_bytes": 445840,
-      "shap_time_sec": 62.75215808398207,
-      "lime_time_sec": null,
+      "model_size_bytes": 441808,
+      "shap_time_sec": 63.091086667001946,
+      "lime_time_sec": 0.3734840830002213,
       "resource_before": {
-        "rss_mb": 871.078125,
-        "vms_mb": 405196.28125,
-        "cpu_user_sec": 3963.613872128,
-        "cpu_system_sec": 82.21351936
+        "rss_mb": 743.0625,
+        "vms_mb": 428192.234375,
+        "cpu_user_sec": 4944.614653952,
+        "cpu_system_sec": 404.290207744
       },
       "resource_after": {
-        "rss_mb": 855.578125,
-        "vms_mb": 405192.453125,
-        "cpu_user_sec": 4060.042756096,
-        "cpu_system_sec": 87.074709504
+        "rss_mb": 663.296875,
+        "vms_mb": 428130.703125,
+        "cpu_user_sec": 5163.143135232,
+        "cpu_system_sec": 427.55424256
       },
-      "shap_error": "lime_not_installed"
+      "shap_error": null
     }
   ]
 }

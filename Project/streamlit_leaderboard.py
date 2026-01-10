@@ -16,6 +16,8 @@ AUDIO_LEADERBOARD = REPORTS_ROOT / "leaderboard_audio.csv"
 AUDIO_DATASET_NAME = "Audio (speech)"
 NLP_LEADERBOARD = REPORTS_ROOT / "leaderboard_nlp.csv"
 NLP_DATASET_NAME = "Text (NLP)"
+DASHBOARD_LEADERBOARD = Path("tables/leaderboard_dashboard.csv")
+DASHBOARD_NAME = "Leaderboard (dashboard)"
 
 
 def available_datasets() -> list[str]:
@@ -64,6 +66,16 @@ def load_optional_csv(path: Path) -> pd.DataFrame:
     if path.exists():
         try:
             return pd.read_csv(path)
+        except Exception:
+            return pd.DataFrame()
+    return pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False)
+def load_dashboard_leaderboard() -> pd.DataFrame:
+    if DASHBOARD_LEADERBOARD.exists():
+        try:
+            return pd.read_csv(DASHBOARD_LEADERBOARD)
         except Exception:
             return pd.DataFrame()
     return pd.DataFrame()
@@ -161,6 +173,25 @@ def render_metric_summary(df: pd.DataFrame) -> None:
             st.dataframe(dataset_summary, use_container_width=True)
 
 
+def highlight_ci(val: object) -> str:
+    if pd.isna(val):
+        return ""
+    if isinstance(val, str) and not val:
+        return ""
+    return "background-color:#1a5c8b;color:white;font-weight:600;"
+
+
+def render_dashboard_table(df: pd.DataFrame) -> None:
+    st.markdown("### Dashboard leaderboard (mean ± possible CI)")
+    ci_cols = [col for col in ("ci_low", "ci_high") if col in df.columns]
+    if ci_cols:
+        styled = df.style.applymap(highlight_ci, subset=ci_cols)
+        st.table(styled)
+    else:
+        st.dataframe(df, use_container_width=True)
+
+
+dashboard_df = load_dashboard_leaderboard()
 dataset_options = available_datasets()
 aggregated_path = REPORTS_ROOT / "leaderboard_multi.csv"
 vision_df = load_optional_csv(VISION_LEADERBOARD)
@@ -175,17 +206,27 @@ if not audio_df.empty and AUDIO_DATASET_NAME not in dataset_options:
 if not nlp_df.empty and NLP_DATASET_NAME not in dataset_options:
     dataset_options.append(NLP_DATASET_NAME)
 
-    if not dataset_options:
-        fallback = REPORTS_ROOT / "leaderboard.csv"
-        if fallback.exists():
-            df = pd.read_csv(fallback)
-            st.info("Showing fallback leaderboard (single dataset).")
-            render_leaderboard(df)
-        else:
-            st.warning("No leaderboard yet. Run `python scripts/run_all.py` first.")
-        st.stop()
+if not dashboard_df.empty:
+    dataset_options.insert(0, DASHBOARD_NAME)
+
+if not dataset_options:
+    fallback = REPORTS_ROOT / "leaderboard.csv"
+    if fallback.exists():
+        df = pd.read_csv(fallback)
+        st.info("Showing fallback leaderboard (single dataset).")
+        render_leaderboard(df)
+    else:
+        st.warning("No leaderboard yet. Run `python scripts/run_all.py` first.")
+    st.stop()
 
 selected = st.sidebar.selectbox("Dataset", dataset_options)
+
+if selected == DASHBOARD_NAME:
+    if dashboard_df.empty:
+        st.error("Dashboard leaderboard unavailable.")
+        st.stop()
+    render_dashboard_table(dashboard_df)
+    st.stop()
 
 if selected == "Combined (all datasets)":
     df = pd.read_csv(aggregated_path)

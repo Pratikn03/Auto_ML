@@ -1,2 +1,0 @@
-[console_scripts]
-automl-run = scripts.run_all:main

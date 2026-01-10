@@ -39,8 +39,18 @@ except Exception:  # pragma: no cover - optional dependency
     h2o = None  # type: ignore
     H2OAutoML = None  # type: ignore
 
+try:
+    from auto_sklearn.classification import AutoSklearnClassifier as AutoSklearnBackend  # type: ignore[import]
+except Exception:  # pragma: no cover - optional dependency
+    AutoSklearnBackend = None  # type: ignore
 
-AutoMLName = Literal["autogluon", "lightautoml", "flaml", "h2o"]
+try:
+    from tpot import TPOTClassifier  # type: ignore[import]
+except Exception:  # pragma: no cover - optional dependency
+    TPOTClassifier = None  # type: ignore
+
+
+AutoMLName = Literal["autogluon", "lightautoml", "flaml", "h2o", "autosklearn", "tpot"]
 
 
 def _ensure_dataframe(X: Any) -> pd.DataFrame:
@@ -411,6 +421,94 @@ class H2OAutoMLClassifier(ClassifierMixin, RegressorMixin, BaseEstimator):
         return self
 
 
+@dataclass
+class AutoSklearnWrapper(ClassifierMixin, RegressorMixin, BaseEstimator):
+    """Auto-sklearn wrapper that reuses the shared time budget."""
+
+    time_limit: int = 600
+    per_run_time_limit: int = 60
+    memory_limit: int = 3072
+    ensemble_size: int = 50
+    resampling_strategy: str = "cv"
+    random_state: int = 42
+
+    def fit(self, X: Any, y: Any):  # type: ignore[override]
+        if AutoSklearnBackend is None:
+            raise ImportError("auto-sklearn is not installed.")
+        X_df = _ensure_dataframe(X)
+        y_series = _ensure_series(y)
+        self._task_type = "regression" if type_of_target(y_series) in {"continuous", "continuous-multioutput"} else "classification"
+        self._automl = AutoSklearnBackend(
+            time_left_for_this_task=self.time_limit,
+            per_run_time_limit=self.per_run_time_limit,
+            memory_limit=self.memory_limit,
+            ensemble_size=self.ensemble_size,
+            resampling_strategy=self.resampling_strategy,
+            random_state=self.random_state,
+        )
+        self._automl.fit(X_df.to_numpy(), y_series.to_numpy())
+        self.classes_ = getattr(self._automl, "classes_", None)
+        self.n_features_in_ = X_df.shape[1]
+        return self
+
+    def predict(self, X: Any):  # type: ignore[override]
+        if not hasattr(self, "_automl"):
+            raise RuntimeError("AutoSklearnWrapper is not fitted yet.")
+        return self._automl.predict(_ensure_dataframe(X).to_numpy())
+
+    def predict_proba(self, X: Any):  # type: ignore[override]
+        if not hasattr(self, "_automl"):
+            raise RuntimeError("AutoSklearnWrapper is not fitted yet.")
+        if self._task_type == "regression" or not hasattr(self._automl, "predict_proba"):
+            raise AttributeError("Predict probabilities unavailable for regression.")
+        return self._automl.predict_proba(_ensure_dataframe(X).to_numpy())
+
+
+@dataclass
+class TPOTWrapper(ClassifierMixin, RegressorMixin, BaseEstimator):
+    """Wrapper around TPOTClassifier controlled by the shared time budget."""
+
+    max_time_mins: float = 10.0
+    generations: int = 5
+    population_size: int = 20
+    scoring: Optional[str] = None
+    cv: int = 5
+    random_state: int = 42
+    verbosity: int = 2
+
+    def fit(self, X: Any, y: Any):  # type: ignore[override]
+        if TPOTClassifier is None:
+            raise ImportError("TPOT is not installed.")
+        X_df = _ensure_dataframe(X)
+        y_series = _ensure_series(y)
+        self._tpot = TPOTClassifier(
+            max_time_mins=self.max_time_mins,
+            generations=self.generations,
+            population_size=self.population_size,
+            scoring=self.scoring,
+            cv=self.cv,
+            random_state=self.random_state,
+            verbosity=self.verbosity,
+            periodic_checkpoint_folder=None,
+        )
+        self._tpot.fit(X_df.to_numpy(), y_series.to_numpy())
+        self.classes_ = getattr(self._tpot, "classes_", None)
+        self.n_features_in_ = X_df.shape[1]
+        return self
+
+    def predict(self, X: Any):  # type: ignore[override]
+        if not hasattr(self, "_tpot"):
+            raise RuntimeError("TPOTWrapper is not fitted yet.")
+        return self._tpot.predict(_ensure_dataframe(X).to_numpy())
+
+    def predict_proba(self, X: Any):  # type: ignore[override]
+        if not hasattr(self, "_tpot"):
+            raise RuntimeError("TPOTWrapper is not fitted yet.")
+        if not hasattr(self._tpot, "predict_proba"):
+            raise AttributeError("TPOT predict_proba unavailable.")
+        return self._tpot.predict_proba(_ensure_dataframe(X).to_numpy())
+
+
 def make_automl_factory(
     framework: AutoMLName,
     *,
@@ -428,6 +526,11 @@ def make_automl_factory(
             return FLAMLClassifier(time_limit=time_limit, **kwargs)
         if framework == "h2o":
             return H2OAutoMLClassifier(time_limit=time_limit, **kwargs)
+        if framework == "autosklearn":
+            return AutoSklearnWrapper(time_limit=time_limit, **kwargs)
+        if framework == "tpot":
+            minutes = max(1.0, time_limit / 60.0)
+            return TPOTWrapper(max_time_mins=minutes, **kwargs)
         raise ValueError(f"Unsupported AutoML framework '{framework}'")
 
     return _factory
@@ -463,6 +566,8 @@ __all__ = [
     "LightAutoMLClassifier",
     "FLAMLClassifier",
     "H2OAutoMLClassifier",
+    "AutoSklearnWrapper",
+    "TPOTWrapper",
     "make_automl_factory",
     "run_automl_suite",
 ]
