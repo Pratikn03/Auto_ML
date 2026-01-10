@@ -1,0 +1,8 @@
+{
+  "dataset": "abalone",
+  "path": "src/data/datasets/tabular/abalone.csv",
+  "rows": 4177,
+  "columns": 9,
+  "issues": [],
+  "status": "pass"
+}
