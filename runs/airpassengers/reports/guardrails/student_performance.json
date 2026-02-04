@@ -1,0 +1,20 @@
+{
+  "dataset": "student_performance",
+  "path": "src/data/datasets/tabular/student_performance.csv",
+  "rows": 1044,
+  "columns": 34,
+  "issues": [
+    {
+      "id": "temporal_split_warning",
+      "columns": [
+        "traveltime",
+        "studytime",
+        "freetime"
+      ],
+      "severity": "info",
+      "description": "Timestamp columns are not strictly sorted; ensure TimeSeriesSplit or blocking is used to avoid look-ahead leakage.",
+      "suggested_fix": "Generate chronological folds via TimeSeriesSplit before training."
+    }
+  ],
+  "status": "issues_found"
+}

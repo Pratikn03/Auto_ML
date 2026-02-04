@@ -19,7 +19,8 @@
     "binning_strategy": null,
     "n_bins": 5,
     "bin_encode": "onehot-dense",
-    "vif_threshold": null
+    "vif_threshold": null,
+    "use_pandas_output": true
   },
   "output_dir": "reports/metrics",
   "artifact_dir": "artifacts/experiments",
@@ -28,7 +29,7 @@
   "save_feature_importance": true,
   "feature_importance_top_k": 20,
   "metadata": {},
-  "target": "target",
+  "target": "class",
   "estimator": "TunableBoostingClassifier",
   "estimator_params": {
     "model_name": "xgboost",

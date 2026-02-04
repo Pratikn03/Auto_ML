@@ -1,2 +1,0 @@
-dataset,framework,accuracy,epochs,preset,augment
-CIFAR10,Vision_resnet18,0.8002,5,custom,basic

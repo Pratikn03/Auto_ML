@@ -1,0 +1,15 @@
+{
+  "dataset": "energy_efficiency",
+  "path": "src/data/datasets/tabular/energy_efficiency.csv",
+  "rows": 768,
+  "columns": 10,
+  "issues": [
+    {
+      "id": "missing_target",
+      "severity": "info",
+      "description": "No obvious target column found; skipping leakage-specific checks.",
+      "suggested_fix": "Specify the target explicitly when running experiments."
+    }
+  ],
+  "status": "no_target"
+}

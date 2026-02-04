@@ -1,0 +1,19 @@
+{
+  "dataset": "banknote_authentication",
+  "path": "src/data/datasets/tabular/banknote_authentication.csv",
+  "rows": 1372,
+  "columns": 5,
+  "issues": [
+    {
+      "id": "duplicate_rows",
+      "severity": "warning",
+      "summary": {
+        "duplicates": 24,
+        "fraction": 0.01749271137026239
+      },
+      "description": "Found 24 duplicated records. Duplicates across folds can leak validation data.",
+      "suggested_fix": "Deduplicate before splitting or ensure GroupKFold/GroupShuffleSplit."
+    }
+  ],
+  "status": "issues_found"
+}

@@ -1,6 +1,0 @@
-{
-  "model": "ETS(add,add,7)",
-  "horizon": 14,
-  "MAE": 1.1312045721494688,
-  "source": "Project/src/data/timeseries_demo.csv"
-}

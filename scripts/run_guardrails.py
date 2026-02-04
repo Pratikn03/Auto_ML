@@ -207,6 +207,7 @@ def audit_dataset(
                 "suggested_fix": "Specify the target explicitly when running experiments.",
             }
         )
+        report["status"] = "no_target"
         return report
 
     duplicate_issue = check_duplicate_rows(df, min_rows)

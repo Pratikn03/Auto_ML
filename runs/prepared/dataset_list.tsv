@@ -1,0 +1,10 @@
+runs/prepared/01_banknote.csv	class
+runs/prepared/02_breast_cancer.csv	target
+runs/prepared/03_telco_churn.csv	Churn
+runs/prepared/04_student_schoolsup.csv	schoolsup
+runs/prepared/05_bike_workingday.csv	workingday
+runs/prepared/06_heart_statlog.csv	class
+runs/prepared/07_mushroom.csv	class
+runs/prepared/08_wine_type.csv	type
+runs/prepared/09_modeldata_demo.csv	IsInsurable
+runs/prepared/10_salary_gender.csv	Gender

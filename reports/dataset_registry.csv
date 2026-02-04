@@ -1,4 +1,0 @@
-dataset,path,rows,columns,target_candidates
-timeseries_demo,/Users/pratik_n/Downloads/Pro_v8_AllInOne/Project/src/data/timeseries_demo.csv,180,2,[]
-_salary_skipped,/Users/pratik_n/Downloads/Pro_v8_AllInOne/src/data/datasets/tabular/_salary_skipped.csv,40,5,"['Gender', 'Age', 'Years of service', 'Education level']"
-breast_cancer,/Users/pratik_n/Downloads/Pro_v8_AllInOne/src/data/datasets/tabular/breast_cancer.csv,569,31,['target']

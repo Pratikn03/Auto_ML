@@ -5,6 +5,7 @@ import os
 from typing import Any, Optional
 
 import pandas as pd
+from pandas.api import types as ptypes
 
 
 def reduce_memory_usage(df: pd.DataFrame, verbose: bool = True) -> pd.DataFrame:
@@ -22,6 +23,9 @@ def reduce_memory_usage(df: pd.DataFrame, verbose: bool = True) -> pd.DataFrame:
     for col in df.columns:
         col_type = df[col].dtype
         
+        if ptypes.is_categorical_dtype(df[col]):
+            continue
+
         if col_type != object:
             c_min = df[col].min()
             c_max = df[col].max()

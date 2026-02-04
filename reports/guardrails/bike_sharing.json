@@ -1,0 +1,15 @@
+{
+  "dataset": "bike_sharing",
+  "path": "src/data/datasets/tabular/bike_sharing.csv",
+  "rows": 731,
+  "columns": 16,
+  "issues": [
+    {
+      "id": "missing_target",
+      "severity": "info",
+      "description": "No obvious target column found; skipping leakage-specific checks.",
+      "suggested_fix": "Specify the target explicitly when running experiments."
+    }
+  ],
+  "status": "no_target"
+}

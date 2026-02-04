@@ -15,7 +15,7 @@ from sklearn.metrics import (
     r2_score,
     roc_auc_score,
 )
-from sklearn.model_selection import StratifiedKFold, train_test_split
+from sklearn.model_selection import KFold, StratifiedKFold, train_test_split
 from sklearn.utils.multiclass import type_of_target
 
 from Project.utils.io import guess_target_column, load_dataset
@@ -68,6 +68,11 @@ def main() -> None:
         y = y.astype(float)
     else:
         problem_type = "classification"
+        class_counts = y.value_counts(dropna=False)
+        min_class_count = int(class_counts.min()) if not class_counts.empty else 0
+        if min_class_count < 2:
+            print(f"[CatBoost] Too few samples per class (min_count={min_class_count}); skipping.")
+            return
 
     cat_indices = _resolve_cat_features(X)
     if cat_indices:
@@ -76,11 +81,20 @@ def main() -> None:
             X[col] = X[col].astype(str).replace({"nan": "__nan__", "None": "__nan__"}).fillna("__nan__")
     folds = []
     if N_SPLITS >= 2:
-        cv = StratifiedKFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
-        try:
-            folds = list(cv.split(X, y))
-        except ValueError as exc:
-            print(f"[CatBoost] Falling back to holdout split: {exc}")
+        if problem_type == "classification":
+            if min_class_count >= N_SPLITS:
+                cv = StratifiedKFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
+                try:
+                    folds = list(cv.split(X, y))
+                except ValueError as exc:
+                    print(f"[CatBoost] Falling back to holdout split: {exc}")
+            else:
+                print(
+                    f"[CatBoost] Rare classes (min_count={min_class_count}) < n_splits={N_SPLITS}; using holdout split."
+                )
+        else:
+            cv = KFold(n_splits=N_SPLITS, shuffle=True, random_state=SEED)
+            folds = list(cv.split(X))
     if not folds:
         stratify = y if y.nunique() > 1 else None
         idx = np.arange(len(y))

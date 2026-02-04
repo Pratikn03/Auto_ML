@@ -1,0 +1,8 @@
+{
+  "dataset": "car_evaluation",
+  "path": "src/data/datasets/tabular/car_evaluation.csv",
+  "rows": 1728,
+  "columns": 7,
+  "issues": [],
+  "status": "pass"
+}

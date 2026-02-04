@@ -1,0 +1,16 @@
+{
+  "dataset": "telco_customer_churn",
+  "path": "src/data/datasets/tabular/telco_customer_churn.csv",
+  "rows": 7043,
+  "columns": 21,
+  "issues": [
+    {
+      "id": "deterministic_proxy",
+      "column": "customerID",
+      "severity": "high",
+      "description": "Column 'customerID' deterministically maps to target 'Churn'.",
+      "suggested_fix": "Drop the proxy feature or treat it as leakage."
+    }
+  ],
+  "status": "issues_found"
+}
